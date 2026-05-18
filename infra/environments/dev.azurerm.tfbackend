@@ -1,0 +1,4 @@
+resource_group_name  = "rg-horoquartz-stevy-test"
+storage_account_name = "horoquartzstadev"
+container_name       = "tfstate"
+key                  = "npe.terraform.tfstate"

@@ -1,0 +1,4 @@
+resource_group_name  = "subs-ia-re-tfstate-rg"
+storage_account_name = "subsiaretfstateprod"
+container_name       = "tfstate"
+key                  = "prod.terraform.tfstate"

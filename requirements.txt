@@ -1,0 +1,14 @@
+azure-ai-documentintelligence==1.0.2
+deepeval==3.9.7
+azure-core==1.39.0
+azure-cosmos==4.15.0
+azure-functions==2.0.0
+azure-identity==1.25.3
+azure-keyvault-secrets==4.10.0
+azure-storage-blob==12.28.0
+azure-storage-queue==12.15.0
+langchain==1.2.15
+langchain-community==0.4.1
+langchain-openai==1.1.12
+pandas==3.0.2
+tabulate

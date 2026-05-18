@@ -1,0 +1,161 @@
+﻿domaine_nom donnée;modifiable;type/longueur,décimale;format;minimum;maximum;filtre;code contrôle;report;code traitement;libellé
+   CTRA_ICITAUX;O;N5,2;I;0.0;10000.0;123456789;;;C2;Taux
+   PARD_IDIDURWBA;O;T6,2;I;;;123456789;;;C2;Durée ajoutée si pointage WBA
+   HJOU_INMISS;O;Z1;X;;;123456789;L;;C2;Mission autorisée
+   HJOU_IJIVMOTFOR;N;A10;X;;;123456789;II;;C0;Motif de forfait temps
+   HJOU_IJIM2PRENB;O;A10;X;;;123456789;II;;C0;Motif présence non badgée
+   PROF_IPIFPAUSBA;O;Z1;X;0.0;1.0;123456789;C;;C2;Pause badgée
+   EMPL_IEIEMPRESS;O;Z1;X;;;123456789;L;;C2;Géré dans Ressources
+   HJOU_IJQENTREE1;N;T6,2;I;;;56789;;;C0;Entrée 1 plage dynamique
+   HJOU_IJQSORTIE1;N;T6,2;I;;;56789;;;C0;Sortie 1 plage dynamique
+   HJOU_IJQENTREE2;N;T6,2;I;;;56789;;;C0;Entrée 2 plage dynamique
+   HJOU_IJQSORTIE2;N;T6,2;I;;;56789;;;C0;Sortie 2 plage dynamique
+   HJOU_IJQENTREE3;N;T6,2;I;;;56789;;;C0;Entrée 3 plage dynamique
+   HJOU_IJQSORTIE3;N;T6,2;I;;;56789;;;C0;Sortie 3 plage dynamique
+   HJOU_IJQENTREE4;N;T6,2;I;;;56789;;;C0;Entrée 4 plage dynamique
+   HJOU_IJQSORTIE4;N;T6,2;I;;;56789;;;C0;Sortie 4 plage dynamique
+   HJOU_IJQENTREE5;N;T6,2;I;;;56789;;;C0;Entrée 5 plage dynamique
+   HJOU_IJQSORTIE5;N;T6,2;I;;;56789;;;C0;Sortie 5 plage dynamique
+   HJOU_IJQENTREE6;N;T6,2;I;;;56789;;;C0;Entrée 6 plage dynamique
+   HJOU_IJQSORTIE6;N;T6,2;I;;;56789;;;C0;Sortie 6 plage dynamique
+   HJOU_IJQENTREE7;N;T6,2;I;;;56789;;;C0;Entrée 7 plage dynamique
+   HJOU_IJQSORTIE7;N;T6,2;I;;;56789;;;C0;Sortie 7 plage dynamique
+   HJOU_IJQPAUSE5J;N;T6,2;I;;;56789;;;C0;Pause 5%
+   PARD_IDIMOTJF;O;A10;X;;;6789;;;C2;Motif jour férié
+   PARD_IDIMOTJFT;O;A10;X;;;6789;;;C2;Motif jour férié travaillé
+   HJOU_IJQPRETHEJ;O;T6,2;I;;;56789;;;C0;Présence théorique jour
+   PARD_IDIHDEBP;O;A1;X;;;6789;L9;;C3;Découpage semaine
+   PARD_IDIXPRES;O;A10;X;;;123456789;II;;C2;Motif de présence non badgeant
+   MOTI_IMIGDURABS;O;A3;X;;;123456789;L;;C2;Gestion de la durée du motif
+   PARD_IDIMOTJF;O;A10;X;;;6789;II;;C2;Motif jour férié
+   MOTI_IMIGDEBCRE;O;Z1;X;0.0;2.0;123456789;;;C2;Participe au Crédit/Débit
+   MOTI_IMIGTPAUS5;O;Z1;X;0.0;1.0;123456789;C;;C2;Participe au temps de pause 5%
+   HJOU_IJIDDELEDS;O;T6,2;I;;;123456789;;;C3;Droit délégation DS
+   HJOU_IJIDATDEDS;O;D10;X;;;123456789;;;C3;Date début de mandat délégation DS
+   HJOU_IJIDATFDDS;O;D10;X;;;123456789;;;C3;Fin de mandat délégation DS
+   HJOU_IJIDDELDFS;O;T6,2;I;;;123456789;;;C3;Droit délégation DFS
+   HJOU_IJIDATDDFS;O;D10;X;;;123456789;;;C3;Date début de mandat délégation DFS
+   HJOU_IJIDATFDFS;O;D10;X;;;123456789;;;C3;Fin de mandat délégation DFS
+   HJOU_IJIDFIN;O;D10;X;;;456789;;;C2;Fin de mandat délégation
+   HJOU_IJIDACSET;O;T6,2;L;;;456789;;;C3;Droit annuel théorique (H)
+   HJOU_IJIDACSEM;O;T6,2;L;;;456789;;;C3;Droit annuel mandat theo (H)
+   MOTI_IMIMATRICS;O;A10;X;;;456789;IH;;C2;Matricule à créditer CSE
+   HORC_IHINFORFJ;O;Z1;X;0.0;1.0;123456789;C;;C2;Forfait jour CSE
+   PARD_IDIMAJOCSE;O;N3,1;I;0.0;;123456789;;;C3;Taux de majoration maxi droit CSE
+   EMPL_IEIMEMBCSE;O;A1;X;;;123456789;L8;;C3;Membre CSE
+   HJOU_IJIGCDTYPP;O;Z1;X;;;123456789;L;;C2;Période de traitement
+   HORC_IHIGMAINCP;O;Z1;X;;;123456789;L9;;C3;Gestion du maintien d'acquisition
+   HORC_IHIMOACQCP;O;A1;X;;;123456789;L;;C3;Mode d'acquisition des congés
+   EMPS_E2DATEANC;N;D10;X;;;9;;;C0;Date d'ancienneté
+   CONF_ITIVMREFCP;O;A4;X;;;123456789;;;C3;Date de référence congé payé (JJMM)
+   MOTI_IMIMINOCP;O;Z1;X;;;123456789;L9;;C3;Acquisition CP
+   PARD_IDIANC1;O;N3;I;;;123456789;;;C3;Ancienneté 1
+   PARD_IDIANC2;O;N3;I;;;123456789;;;C3;Ancienneté 2
+   PARD_IDIANC3;O;N3;I;;;123456789;;;C3;Ancienneté 3
+   PARD_IDIANC4;O;N3;I;;;123456789;;;C3;Ancienneté 4
+   PARD_IDIMAIN1;O;N3;I;;;123456789;;;C3;Nb jours maintien 1
+   PARD_IDIMAIN2;O;N3;I;;;123456789;;;C3;Nb jours maintien 2
+   PARD_IDIMAIN3;O;N3;I;;;123456789;;;C3;Nb jours maintien 3
+   PARD_IDIMAIN4;O;N3;I;;;123456789;;;C3;Nb jours maintien 4
+   HORC_IHIANC1;O;N3;I;;;123456789;;;C3;Ancienneté 1
+   HORC_IHIANC2;O;N3;I;;;123456789;;;C3;Ancienneté 2
+   HORC_IHIANC3;O;N3;I;;;123456789;;;C3;Ancienneté 3
+   HORC_IHIANC4;O;N3;I;;;123456789;;;C3;Ancienneté 4
+   HORC_IHIMAIN1;O;N3;I;;;123456789;;;C3;Nb jours maintien 1
+   HORC_IHIMAIN2;O;N3;I;;;123456789;;;C3;Nb jours maintien 2
+   HORC_IHIMAIN3;O;N3;I;;;123456789;;;C3;Nb jours maintien 3
+   HORC_IHIMAIN4;O;N3;I;;;123456789;;;C3;Nb jours maintien 4
+   MOTI_IMICONTCPS;O;Z1;X;;;123456789;L9;;C3;Maintien congé
+   PARD_IDINBRSAMD;O;N2;I;0.0;;123456789;;;C3;Nombre de congés samedi à prendre
+   HORC_IHIVMREFCP;O;A4;X;;;123456789;;;C2;Date de référence congé payé (JJMM)
+   HORC_IHIGESRELI;O;Z1;X;;;123456789;L;;C3;Gestion des reliquats
+   HORC_IHIDRJTRAV;O;N4,2;I;;;123456789;;;C3;Acquis congé payé
+   HORC_IHIDRCPMAL;O;N5,2;I;;;123456789;;;C3;Acquis congé payé maladie
+   HJOU_IJIACOPRIN;O;Z1;X;0.0;1.0;123456789;C;;C2;Gestion acquis congé payé
+   HORC_IHIREPCON;O;A1;X;;;123456789;L9;;C3;Acquisition fin de période
+   PARD_IDIREP15M;O;N3;I;;;123456789;;;C3;Nb mois report congé maladie
+   HORC_IHIMCOLE;O;A1;X;;;123456789;L9;;C3;Post période de maintien
+   HJOU_IJIREGCPAN;O;Z1;X;;;123456789;L;;C2;Régime des congés d'ancienneté
+   PARD_IDISANC1;O;N3;I;;;123456789;;;C3;"Seuil ancienneté 1 RÉGIME 1"""""
+   PARD_IDISANC2;O;N3;I;;;123456789;;;C3;"Seuil ancienneté 2 RÉGIME 1"""""
+   PARD_IDISANC3;O;N3;I;;;123456789;;;C3;"Seuil ancienneté 3 RÉGIME 1"""""
+   PARD_IDISANC4;O;N3;I;;;123456789;;;C3;"Seuil ancienneté 4 RÉGIME 1"""""
+   PARD_IDISANC5;O;N3;I;;;123456789;;;C3;"Seuil ancienneté 5 RÉGIME 1"""""
+   PARD_IDISANC6;O;N3;I;;;123456789;;;C3;"Seuil ancienneté 6 RÉGIME 1"""""
+   PARD_IDIDCANC1;O;N4,1;I;;;123456789;;;C3;"Droit congé ancienneté 1 RÉGIME 1"""""
+   PARD_IDIDCANC2;O;N4,1;I;;;123456789;;;C3;"Droit congé ancienneté 2 RÉGIME 1"""""
+   PARD_IDIDCANC3;O;N4,1;I;;;123456789;;;C3;"Droit congé ancienneté 3 RÉGIME 1"""""
+   PARD_IDIDCANC4;O;N4,1;I;;;123456789;;;C3;"Droit congé ancienneté 4 RÉGIME 1"""""
+   PARD_IDIDCANC5;O;N4,1;I;;;123456789;;;C3;"Droit congé ancienneté 5 RÉGIME 1"""""
+   PARD_IDIDCANC6;O;N4,1;I;;;123456789;;;C3;"Droit congé ancienneté 6 RÉGIME 1"""""
+   PARD_IDISANNC1;O;N3;I;;;123456789;;;C3;"Seuil ancienneté 1 RÉGIME 2"""""
+   PARD_IDISANNC2;O;N3;I;;;123456789;;;C3;"Seuil ancienneté 2 RÉGIME 2"""""
+   PARD_IDISANNC3;O;N3;I;;;123456789;;;C3;"Seuil ancienneté 3 RÉGIME 2"""""
+   PARD_IDISANNC4;O;N3;I;;;123456789;;;C3;"Seuil ancienneté 4 RÉGIME 2"""""
+   PARD_IDISANNC5;O;N3;I;;;123456789;;;C3;"Seuil ancienneté 5 RÉGIME 2"""""
+   PARD_IDISANNC6;O;N3;I;;;123456789;;;C3;"Seuil ancienneté 6 RÉGIME 2"""""
+   PARD_IDIDCANNC1;O;N4,1;I;;;123456789;;;C3;"Droit congé ancienneté 1 RÉGIME 2"""""
+   PARD_IDIDCANNC2;O;N4,1;I;;;123456789;;;C3;"Droit congé ancienneté 2 RÉGIME 2"""""
+   PARD_IDIDCANNC3;O;N4,1;I;;;123456789;;;C3;"Droit congé ancienneté 3 RÉGIME 2"""""
+   PARD_IDIDCANNC4;O;N4,1;I;;;123456789;;;C3;"Droit congé ancienneté 4 RÉGIME 2"""""
+   PARD_IDIDCANNC5;O;N4,1;I;;;123456789;;;C3;"Droit congé ancienneté 5 RÉGIME 2"""""
+   PARD_IDIDCANNC6;O;N4,1;I;;;123456789;;;C3;"Droit congé ancienneté 6 RÉGIME 2"""""
+   MOTI_IMICONTCPS;O;Z1;X;;;123456789;L9;;C3;Continuité de pose
+   PARD_IDIVMCOREL;O;A10;X;;;123456789;II;;C2;Reliquat congé payé
+   PARD_IDIVMCOANC;O;A10;X;;;123456789;II;;C2;Congé ancienneté
+   PARD_IDIVMCOPRI;O;A10;X;;;123456789;II;;C2;Congé payé
+   PARD_IDIVMCOANT;O;A10;X;;;123456789;II;;C2;Congé anticipé
+   PARD_IDIJOUROUV;O;Z1;X;;;123456789;L;;C2;Jours ouvrés / travaillés
+   PARD_IDIVMRCP;O;A10;X;;;123456789;II;;C2;Report congé
+   PARD_IDIVMCOFRA;O;A10;X;;;123456789;II;;C2;Congé fractionnement
+   PARD_IDICALFRAC;O;Z1;X;;;123456789;L9;;C3;Calcul Congés fractionnement
+   HORC_IHIMOACQCP;O;A1;X;;;123456789;L9;;C3;Mode d'acquisition des congés
+   HJOU_IJIGHSUPPM;O;Z1;X;;;123456789;L;;C2;Régime HS/HC
+   HORC_IHINPRIST;O;Z1;X;0.0;1.0;789;C;;C2;Prime de poste
+   HORC_IHISPRIST;O;T6,2;I;;;123456789;;;C2;Seuil déclenchement prime de poste
+   MOTI_IMIGPRIMH;O;Z1;X;0.0;1.0;123456789;C;;C2;Participe à la prime de poste
+   HJOU_IJIGHSUPPM;O;Z1;X;;;123456789;L;;C2;Régime HS
+   MOTI_IMIGHRPAYE;O;Z1;X;0.0;1.0;123456789;C;;C2;Participe aux heures payées
+   PARD_IDIHSTAUX1;O;N2;I;;;123456789;;;C3;HS taux 1 (%)
+   PARD_IDIHSTAUX2;O;N2;I;;;123456789;;;C3;HS taux 2 (%)
+   HORC_IHISEUILHS;O;T6,2;I;;;123456789;;;C3;Seuil paiement des HS
+   PARD_IDIDATPEHS;O;D10;X;;;123456789;;;C3;Début période HS payées avant fin cycle
+   HORC_IHIHSTAUX1;O;N2;I;;;123456789;;;C3;HS taux 1 (%)
+   HORC_IHIHSTAUX2;O;N2;I;;;123456789;;;C3;HS taux 2 (%)
+   HORC_IHISHSMTX1;O;T6,2;I;;;123456789;;;C3;Seuil HS taux 1
+   HORC_IHISHSMTX2;O;T6,2;I;;;123456789;;;C3;Seuil HS taux 2
+   PARD_IDIHCTAUX1;O;N2;I;;;123456789;;;C3;Heures compl. taux 1 (%)
+   PARD_IDIHCTAUX2;O;N2;I;;;123456789;;;C3;Heures compl. à récup. taux 2 (%)
+   HORC_IHIHCTAUX1;O;N2;I;;;123456789;;;C3;Heures compl. taux 1 (%)
+   HORC_IHIHCTAUX2;O;N2;I;;;123456789;;;C3;Heures compl. taux 2 (%)
+   PARD_IDISACQRTT;O;T6,2;I;0.0;;123456789;;;C3;Seuil RTT
+   CONF_IGIREFRTT;O;A4;X;;;123456789;;;C3;Date de référence RTT (JJMM)
+   PARD_IDISRPEP;N;N4,1;I;0.0;;56789;;;C3;Nbre de jours de repos annuels
+   PARD_IDIDDEBANN;O;D10;X;;;56789;;;C3;Début période annualisation
+   MOTI_IMIABTRTT;O;Z1;X;0.0;1.0;56789;C;;C2;Abattement RTT
+   HORC_IHIABTRTT;O;N6,2;I;;;56789;;;C3;Seuil abattement RTT
+   HORC_IHINBABRTT;O;N6,2;I;;;56789;;;C3;Nombre RTT abattu
+   HORC_IHINBRTT;O;N4,1;I;0.0;;56789;;;C3;Nbre de jours de repos annuels / RTT
+   PARD_IDIREFRCN;O;A4;X;;;123456789;;;C3;Date de référence RC de nuit (JJMM)
+   PARD_IDIDDEBFJ;O;D10;X;;;123456789;;;C3;Début période gestion convention FJ
+   PARD_IDIVPLFTHA;O;N6,2;I;;;123456789;;;C3;Plafond théorique annuel FJ
+   PARD_IDIDRAZRFJ;O;A4;X;;;123456789;;;C3;Date RAZ repos N-1 FJ (JJMM)
+   PARD_IDIVMRFJ;O;A10;X;;;123456789;II;;C2;Motif repos forfait jour
+   HORC_IHIFORFJ;O;Z1;X;0.0;1.0;123456789;C;;C2;Forfait jour
+   MOTI_IMITTEFFFJ;O;Z1;X;;;123456789;L;;C2;Participe au temps travail effectif FJ
+   HORC_IHIVPLFTHA;N;N6,2;I;;;123456789;;;C3;Plafond théorique annuel FJ
+   PARD_IDIVMDONCP;O;A10;X;;;123456789;II;;C2;Motif absence sur don
+   PARD_IDISENFMA1;O;N2;I;;;123456789;;;C2;Seuil 1 âge enfant malade
+   PARD_IDISENFMA3;O;N2;I;;;123456789;;;C2;Seuil 2 âge enfant malade
+   PARD_IDIENFMAL1;O;N3,1;I;;;123456789;;;C2;Droit enfant malade
+   PARD_IDIENFMAL2;O;N3,1;I;;;123456789;;;C2;Droit enfant malade maximum
+   PARD_IDIECHVISI;O;N2;I;;;123456789;;;C3;Echéance visite médicale
+   EMPL_IEIDVISITE;O;D10;X;;;123456789;;;C0;Date de la dernière visite médicale
+   PARD_IDIVHORCOH;O;T6,2;I;;;123456789;;;C2;Horaire hebdo temps plein
+   CTRA_ICIDEROGTP;O;Z1;X;0.0;1.0;123456789;C;;C3;Dérogation minimum légal temps partiel
+   PARD_IDIMINLEGA;O;T6,2;I;0.0;;123456789;;;C3;Seuil minimum légal temps partiel
+   PARD_IDIJOUROUV;O;Z1;X;;;123456789;L;;C2;Jours ouvrés / oeuvrés
+   PARD_IDIMAXAMP;O;T6,2;I;0.0;;123456789;;;C3;Amplitude jour max
+   PARD_IDIHSMINEU;O;T6,2;I;;;123456789;;;C3;Seuil HS pour les moins de 18 ans
+   PARD_IDIVMABSI;O;A10;X;;;123456789;II;;C2;Absence injustifiée
+   PARD_IDISJABSI;O;N5,1;I;0.0;;123456789;;;C2;Seuil Présomption démission

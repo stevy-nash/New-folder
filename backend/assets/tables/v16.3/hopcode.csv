@@ -1,0 +1,264 @@
+TYPE;ELEMENT;CODE;LIBCODE
+ ;ZONE;Z1;Changement étage
+ ;ZONE;Z2;Etage 1
+H;COACTBAD;ACTB;Activité badgée
+H;CODEDUC;0;Déduction coupure mini
+H;CODEDUC;1;Déduction coupure maxi
+H;COMISLBA;MISL;MISL
+H;COMISSBA;MISS;MISS
+H;CONEUTRA;0;Total des pauses en plage DJ
+H;CONEUTRA;1;Plus grande pause en plage DJ
+H;COPAUST;0;0
+H;COPAUST;1;1
+H;DITYPE;1;Carte d'identité
+H;DITYPE;2;Passeport
+H;DITYPE;3;Carte de séjour
+H;DITYPE;4;Permis de conduire
+H;DPDIPLOME;1;CAP
+H;DPDIPLOME;2;BEP
+H;DPDIPLOME;3;BAC
+H;DPDIPLOME;4;BTS
+H;DPDIPLOME;5;Licence
+H;DPDIPLOME;6;Master
+H;DPDIPLOME;7;DEA
+H;E1RAISONCL;1;Retraite
+H;E1RAISONCL;2;Démission
+H;E1RAISONCL;3;Licenciement
+H;E1SOCINTE;1;Adecco
+H;E1SOCINTE;2;Manpower
+H;E1SOCINTE;3;Randstad
+H;E2NATION;BE;Belge
+H;E2NATION;ES;Espagnole
+H;E2NATION;FR;Française
+H;E2NATION;IT;Italienne
+H;E2NATION;NL;Néerlandaise
+H;E2NATION;UK;Britannique
+H;E2NIVETUDE;1;Niveau V (CAP, BEP, ...)
+H;E2NIVETUDE;2;Niveau IV (Bac, ...)
+H;E2NIVETUDE;3;Niveau III (Bac+2)
+H;E2NIVETUDE;4;Niveau I et II (Bac+3 et +)
+H;E2PAYSNAI;BE;Belgique
+H;E2PAYSNAI;ES;Espagne
+H;E2PAYSNAI;FR;France
+H;E2PAYSNAI;GE;Allemagne
+H;E2PAYSNAI;IT;Italie
+H;E2PAYSNAI;NL;Pays-Bas
+H;E2PAYSNAI;UK;Royaume-Uni
+H;E2SITUMARI;1;Célibataire
+H;E2SITUMARI;2;Marié(e)
+H;E2SITUMARI;3;Divorcé(e)
+H;E2SITUMARI;4;Veuf(ve)
+H;E2SITUMARI;5;Pacsé(e)
+H;EITYPE;1;Entretien Individuel Annuel
+H;EITYPE;2;Entretien professionel
+H;EQEQUIP;1;Pantalon
+H;EQEQUIP;2;Veste
+H;EQEQUIP;3;Gants
+H;EQEQUIP;4;Casque
+H;EQTAILLE;1;S
+H;EQTAILLE;2;M
+H;EQTAILLE;3;L
+H;EQTAILLE;4;XL
+H;EQTAILLE;5;40
+H;EQTAILLE;6;42
+H;EQTAILLE;7;44
+H;EQTAILLE;8;46
+H;EQTAILLE;9;48
+H;EQTAILLE;10;50
+H;EQTAILLE;11;52
+H;EQTAILLE;12;54
+H;IDIEFFECTI;0;Plus de 20 salariés
+H;IDIEFFECTI;1;Jusqu'à 20 salariés
+H;IDIGDPAUSM;0;Déduction coupure minimum
+H;IDIGDPAUSM;1;Déduction coupure maximum
+H;IDIGNPAUSM;0;Total des pauses en plage DJ
+H;IDIGNPAUSM;1;Plus grande pause en plage DJ
+H;IDIJOUROUV;0;Jours ouvrés : Du lundi au vendredi
+H;IDIJOUROUV;1;Jours travaillés : Du lundi au vendredi et théorie jour > 0
+H;IDIOUVERTU;0;Ouverture du lundi au vendredi
+H;IDIOUVERTU;1;Ouverture du lundi au dimanche
+H;IDITICKETS;1;Attribution sur présence journee entière
+H;IDITICKETS;2;Attribution sur présence matin
+H;IDITICKETS;3;Attribution sur présence 1/2 journée
+H;IEIACTI;0;Pas géré en activité
+H;IEIACTI;1;Horodaté
+H;IEIACTI;2;Déclaratif
+H;IEIACTI;3;Mixte
+H;IEIACTI;4;Chantier
+H;IEICATEGOR;1;Dirigeant
+H;IEICATEGOR;2;Cadre
+H;IEICATEGOR;3;Non cadre
+H;IEIEMPLOI;1;Cariste
+H;IEIEMPLOI;2;Monteur
+H;IEIEMPLOI;3;Soudeur
+H;IEIEMPRESS;0;NON
+H;IEIEMPRESS;1;OUI
+H;IEIMEMBCSE;1;Liste A
+H;IEIMEMBCSE;2;Liste B
+H;IEIMEMBCSE;3;Liste C
+H;IGIREFCPAN;0;Date de référence des CP
+H;IGIREFCPAN;1;Date d'anniversaire de l'ancienneté
+H;IHIGESRELI;0;Non concerné
+H;IHIGESRELI;1;Report légal
+H;IHIGESRELI;2;Gestion reliquat sans remise à zéro
+H;IHIGMAINCP;0;Pas de maintien
+H;IHIMOACQCP;0;Non concerné
+H;IJIACTI;0;Pas géré en activité
+H;IJIACTI;1;Horodaté
+H;IJIACTI;2;Déclaratif
+H;IJIACTI;3;Mixte
+H;IJIACTI;4;Chantier
+H;IJICATEGOR;1;Dirigeant
+H;IHIGMAINCP;3;Année civile (HOR)
+H;IHIGMAINCP;4;Période de référence (HOR)
+H;IHIMOACQCP;2;Acquisition en ouvrés
+H;IHIGMAINCP;2;Période de référence (CFG)
+H;IHIMOACQCP;3;Acquisition en ouvrables  + calcul au 30ème
+H;IHIMOACQCP;4;Acquisition en ouvrés  + calcul au 30ème
+H;IHIMOACQCP;1;Acquisition en ouvrables
+H;IHIREPCON;0;Acquis légale
+H;IHIMCOLE;0;Aucune acquisition sur maladie
+H;IHIMCOLE;1;Acquisition légale sur maladie
+H;IHIGESRELI;3;Gestion reliquat sans remise à zéro ou report légal
+H;IHIREPCON;1;Acquis au plus avantageux
+H;IJICATEGOR;2;Cadre forfait heures
+H;IJICATEGOR;3;Cadre forfait jours
+H;IJICATEGOR;4;Non cadre
+H;IJIGACTBAD;0;Activité badgée non autorisée
+H;IJIGACTBAD;1;Activité badgée autorisée
+H;IJIGBADGEA;0;Non badgeant
+H;IJIGBADGEA;1;Badgeant
+H;IJIGCDTYPP;1;Traitement hebdomadaire
+H;IJIGCDTYPP;2;Traitement mensuel
+H;IJIGCDTYPP;3;Traitement sur calendrier FINP
+H;IJIGCDTYPP;4;Journalier
+H;IJIGCDTYPP;5;Mixte (hebdo + mois)
+H;IJIGCREDEB;0;Pas de calcul de crédit/débit
+H;IJIGCREDEB;1;Calcul de crédit/débit journalier et périodique
+H;IJIGCREDEB;2;Calcul de crédit/débit journalier uniquement
+H;IJIGHSUPPM;0;Pas de calcul HS
+H;IJIGHSUPPM;1;Calcul HS le dimanche
+H;IJIGHSUPPM;2;Calcul HS en fin de cycle
+H;IJIGHSUPPM;3;Calcul HS annuel
+H;IJIGHSUPPR;0;Les HS sont payées
+H;IJIGHSUPPR;1;Les HS sont récupérées
+H;IJIGRETETR;0;Pas droit au RTT
+H;IJIGRETETR;1;Gestion en heures
+H;IJIGRETETR;2;Gestion annuelle en jours
+H;IJIGRETETR;3;Gestion en heures hebdomadaire
+H;IJIGRETETR;4;Gestion en jours mensuelle
+H;IJIGTICKRE;0;Pas de calcul de ticket
+H;IJIGTICKRE;1;Calcul de ticket
+H;IJIREGCPAN;0;Pas de régime de congé d'ancienneté
+H;IJIREGCPAN;1;Régime 1
+H;IJIREGCPAN;2;Régime 2
+H;IJIREGCPAN;3;CCN Metallurgie
+H;IMIACTI;0;N'alimente pas l'activité
+H;IMIACTI;1;Alimente l'activité
+H;IMIALIGA;0;Pas alimenté par l'activité
+H;IMIALIGA;1;Alimenté par l'activité
+H;IMIGDURABS;C5;1/5ième du contrat
+H;IMIGDURABS;C6;1/6ième du contrat
+H;IMIGDURABS;C7;1/7ième du contrat
+H;IMIGDURABS;FIX;Durée fixe (définie dans valeur par défaut)
+H;IMIGDURABS;H5;1/5ième du contrat hebdomadaire
+H;IMIGDURABS;H6;1/6ième du contrat hebdomadaire
+H;IMIGDURABS;H7;1/7ième du contrat hebdomadaire
+H;IMIGDURABS;PLG;Temps planifié
+H;IMIGTPAUS5;0;Ne participe pas au temps de pause
+H;IMIGTPAUS5;1;Participe au temps de pause
+H;IMIGTPAUSE;0;Ne participe pas au temps de pause
+H;IMIGTPAUSE;1;Participe au temps de pause
+H;IMIGTTEFFE;0;Pas de crédit
+H;IMIGTTEFFE;1;Crédit
+H;IMIGTTEFFE;2;Débit
+H;IMIGTTEFFE;3;Valeur neutre
+H;IMIINTOUTL;0;Le motif n'est pas interfacé
+H;IMIINTOUTL;1;Le motif est interfacé et non confidentiel
+H;IMIINTOUTL;2;Le motif est interfacé et confidentiel
+H;IMIMINOCP;0;Pas d'abattement CP
+H;IMIMINOCP;1;Abattement CP dès le 1er jour
+H;IMIMINOCP;2;Acquisition partielle avec report (Maladie)
+H;IMIMINOCP;3;Acquisition CP avec report (AT)
+H;IMITTECP;0;Sans effet sur le droit aux congés
+H;IMITTECP;1;Supprime le droit aux congés
+H;IMIVISITER;1;Arrêt maladie/accident non professionnel
+H;IMIVISITER;2;Arrêt accident de travail
+H;IMIVISITER;3;Arrêt maladie professionnelle
+H;INMISS;0;Mission non autorisée
+H;INMISS;1;Mission autorisée
+H;INMISS;2;Mission maintenue le lendemain
+H;INMISS;3;Mission du lendemain autorisée
+H;INMOD;0;Pas de suivi analytique
+H;INMOD;1;Analytique badgé
+H;INMOD;2;Analytique manuel
+H;INRECOND;0;CDCG fiche employé
+H;INRECOND;1;CDCG jours en cours
+H;INRECOND;2;CDCG de la veille
+H;INSALA;0;Salarié non transféré
+H;INSALA;1;Salarié transféré
+H;IPIFPAUSBA;0;Pause non badgée
+H;IPIFPAUSBA;1;Pause badgée
+H;IPIGABSPLF;0;Pas de contrôle
+H;IPIGABSPLF;1;Temps d'absence plages
+H;IPIGABSPLF;2;Calcul du retard
+H;IPIGMISSTH;0;Complément   Fin sans retour
+H;IPIGMISSTH;1;Complément à la théorie
+H;IPIGPAUSME;0;Pause non créditée dans les h. totales / h. effectives
+H;IPIGPAUSME;1;Pause créditée dans les h. totales / h. effectives
+H;IPIGPAUSME;2;Pause non créditée dans les h. totales
+H;IPIGPAUSME;3;Pause créditée dans les h. totales
+H;IPIGPAUSME;4;Pause 5%
+H;ISIACTI;0;Pas géré en activité
+H;ISIACTI;1;Horodaté
+H;ISIACTI;2;Déclaratif
+H;ISIACTI;3;Mixte
+H;ISIACTI;4;Chantier
+H;MEHANDI;1;Déficient visuel
+H;MEHANDI;2;Déficient auditif
+H;TTTITRE;1;Carte Orange
+H;TTTITRE;2;Coupon Fréquence SNCF
+H;TYPEPLAN;0;Non optimisable
+H;TYPEPLAN;1;Sur horaires libres
+H;TYPEPLAN;2;Sur profil courant
+H;TYPEPLAN;5;Sur type horaire
+H;TYPEPLAN;6;Sur horaires minutes
+H;TYPMAT;1;Maladie
+H;TYPMAT;2;Maternité / adoption
+H;TYPMAT;3;Paternité / accueil de l'enfant
+H;TYPMAT;4;Congé suite à un accident de trajet
+H;TYPMAT;5;Congé suite à maladie professionnelle
+H;IMICONTCPS;0;Pas de pose sur jours non travaillés
+H;TYPMAT;6;Congé suite à accident de travail ou de service
+H;TYPMAT;7;Femme enceinte dispensée de travail
+H;TYPMAT;8;Temps partiel thérapeutique
+H;TYPMAT;AT;Accidents
+H;TYPMAT;MA;Maladies
+H;VHMODELE;1;Renault
+H;VHMODELE;2;Citroën
+H;VHMODELE;3;Peugeot
+H;VHTYPE;1;Véhicule de location
+H;VHTYPE;2;Véhicule personnel
+H;VHTYPE;3;Véhicule société
+H;VMMOTIF;1;Embauche
+H;VMMOTIF;2;Périodique
+H;VMMOTIF;3;Reprise
+H;VMMOTIF;4;Pré-reprise
+H;TYPCTRA;CDD;Contrat à Durée Déterminée
+H;TYPCTRA;CDI;Contrat à Durée Indéterminée
+H;TYPCTRA;CTA;Contrat Temporaire Annuel
+H;TYPCTRA;CTT;Contrat de Travail Temporaire
+H;TYPCTRA;INT;Contrat Intérimaire
+H;IDIHDEBP;0;Lundi début de poste -> dimanche fin de poste
+H;IDIHDEBP;1;Lundi 00h -> Dimanche 23h59
+H;IMISTATUT;OOF;Absent(e) du bureau
+H;IMISTATUT;FREE;Disponible
+H;IMISTATUT;BUSY;Occupé(e)
+H;IMISTATUT;TENTATIVE;Provisoire
+H;IMISTATUT;WE;Télétravail (Exchange 365 uniquement)
+H;IHIGMAINCP;1;Année civile (CFG)
+H;IMITTEFFFJ;0;Ne participe pas
+H;IMITTEFFFJ;1;Participe
+H;IMITTEFFFJ;2;Absence assimilée à du temps de travail effectif
+H;IMICONTCPS;1;Pose sur jours non travaillés
+H;IMIGDURABS;PRO;Durée renseignée dans le profil [PAR DEFAUT]

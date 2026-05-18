@@ -1,0 +1,1257 @@
+ECRAN;ONGLET;DONNEE;LIBELLE;DOMAINE
+HOR;Congés;IHIMAIN2;Nb jours maintien 2;HORC
+JOU;Compteurs annuels;IJRNJFETRA;Nbre de fériés travaillés annuel;HJOU
+PRO;Données générales;IPINPRISPE;Prime spécifique;PROF
+JOU;Compteurs journaliers;IJQNABSPFI;Nombre de retards jour;HJOU
+CFG;Paramètres généraux;IDIJOUROUV;Jours ouvrés / travaillés;PARD
+PRO;Données générales;IPIVMINBAD;Nbre minimum de badgeages;PROF
+JOU;Don/CET/Enfant malade;IJRCOVER;Jours de congés versés;HJOU
+JOU;Délégation CSE;IJRASCSE;Solde annuel (H);HJOU
+JOU;Plages;IJQSORTIE6;Sortie 6;HJOU
+JOU;Options employé;IJIGBADGEA;Badgeant;SECH
+JOU;Heures supplémentaires;IJRHSMPAYA;Cumul annuel HS/HC;HJOU
+ACT;Données personnalisées;IMIGPRISPE;Participe au calcul de la prime spécif.;MOTI
+JOU;Congés;IJRCCORELI;Pris reliquat CP;HJOU
+EMP;Paramétrage individuel;IEICATEGOR;Catégorie;EMPL
+JOU;RTT;IJRCRTTHEU;Pris RTT (H);HJOU
+JOU;Heures supplémentaires;IJQHS1MAPA;HS 25%;HJOU
+JOU;Compteurs journaliers;IJQCREDEBJ;Crédit/Débit du jour;HJOU
+JOU;Congés;IJRCCOFRAC;Pris congé fractionnement;HJOU
+CFG;Congés;IDINBRSAMD;Nombre de congés samedi à prendre;PARD
+CFG;Définition des motifs;IDIMOTJF;Motif jour férié;PARD
+HOR;Congés;IHIANC2;Ancienneté 2;HORC
+ACT;Données personnalisées;IMIGCHEVAU;Contrôle chevauchement badgeages;MOTI
+JOU;Heures supplémentaires;IJRRCNUIT;Solde du RC de nuit;HJOU
+CFG;Seuils et dates de référence;IDISEUIRCN;Seuil acquisition RC de nuit;PARD
+PRO;Données générales;IPISPRISPE;Seuil déclenchement prime spécifique;PROF
+JOU;Prépaie;IJQNPRISPE;Prime spécifique;HJOU
+ACT;HQ Calendar;IMIMOTIF;Motif affiché;MOTI
+PRO;Données générales;IPIGPANIJR;Panier jour;PROF
+JOU;Délégation CSE;IJRMDCSE4;Droit mensuel M-4 (H);HJOU
+CFG;Paramètres généraux;IDITICKETS;Gestion tickets restaurant;PARD
+HOR;Congés;IHIANC1;Ancienneté 1;HORC
+CFG;Congés;IDIANC1;Ancienneté 1;PARD
+SEH;Données personnalisées;IJIGHSUPPM;Régime HS / HC;SECH
+PRO;Données générales;IPICODPLAN;Code sur planning;PROF
+CFG;Seuils et dates de référence;IDIREFRCN;Date de référence RC de nuit (JJMM);PARD
+CFG;Congés ancienneté;IDIDCANC2;Droit congé ancienneté 2 "régime 1";PARD
+SEH;Données personnalisées;IJICDRPLAF;Report maximum;HJOU
+JOU;RTT;IJRSNBJRTT;Solde RTT (J);HJOU
+CFG;Seuils et dates de référence;IDISHSMTX2;Seuil HS taux 2;PARD
+JOU;Options employé;IJICDPLANC;Crédit minimum;SECH
+JOU;Don/CET/Enfant malade;IJRSCPCET;Solde CET au titre des congés payés;HJOU
+JOU;Compteurs annuels;IJRSOLDCET;Solde CET;HJOU
+JOU;Congés;IJRCCOPRIN;Pris CP;HJOU
+JOU;Options employé;IJICDRPLAF;Report maximum;HJOU
+EMP;Gestion de véhicules;IEIDATELOC;Date de fin de location;EMPL
+JOU;Congés;IJRFRRCPP1;Date de perte;HJOU
+JOU;Compteurs annuels;IJRTTEPMOD;Heures effectives annuelles;HJOU
+HOR;Données générales;IHISPRIST;Seuil déclenchement prime de poste;HORC
+CFG;Congés ancienneté;IDISANNC4;Seuil ancienneté 4 "régime 2";PARD
+HOR;Congés;IHIANC3;Ancienneté 3;HORC
+JOU;Heures supplémentaires;IJRHRECANN;Cumul annuel HS/HC à récupérer;HJOU
+SEH;Données personnalisées;IJIGHSUPPR;Modalité HS;SECH
+CFG;Seuils et dates de référence;IDIECHVISI;Echéance visite médicale;PARD
+CFG;Congés ancienneté;IDIDCANC3;Droit congé ancienneté 3 "régime 1";PARD
+SEH;Données personnalisées;INSALA;Transfert paie;HJOU
+EMP;Planification;IEIEMPRESS;Géré dans Ressources;EMPL
+JOU;Options employé;IJIM1PRENB;Motif de crédit ou débit;HJOU
+JOU;Délégation CSE;IJRMDCSE11;Droit mensuel M-11 (H);HJOU
+JOU;Plages;IJQSORTIE2;Sortie 2;HJOU
+CFG;Congés ancienneté;IDISANNC2;Seuil ancienneté 2 "régime 2";PARD
+CFG;Congés ancienneté;IDISANC2;Seuil ancienneté 2 "régime 1";PARD
+JOU;Options employé;IJIGACTBAD;Activité badgée autorisée;SECH
+JOU;Compteurs journaliers;IJQBHORVAJ;Heures totales;HJOU
+JOU;Options employé;IJIGBADGEA;Badgeant;HJOU
+CFG;Congés;IDIVMCOREL;Reliquat congé payé;PARD
+JOU;Congés;IJRSCOANCI;Solde congé ancienneté;HJOU
+JOU;Congés;IJRDACQCPL;Acquisition légale;HJOU
+ACT;HQ Calendar;IMILIBMOT;Détail du RDV;MOTI
+CFG;Congés;IDIVMCOANT;Congé anticipé;PARD
+HOR;Congés;IHIGMAINCP;Gestion du maintien d'acquisition;HORC
+JOU;Délégation CSE;IJRMDCSE8;Droit mensuel M-8 (H);HJOU
+JOU;Plages;IJQENTREE1;Entrée 1;HJOU
+HOR;Données générales;IHIVPLFTHA;Plafond théorique FJ;HORC
+JOU;Délégation CSE;IJRMDCSE;Droit mensuel (H);HJOU
+JOU;Congés;IJRMALCPO;Nb jours maladie annuel;HJOU
+CFG;Définition des motifs;IDIMOTJFT;Motif jour férié travaillé;PARD
+ACT;Données personnalisées;IMIGTICKRE;Maintien ticket restaurant;MOTI
+ACT;Données personnalisées;IMIGPRIMH;Participe à la prime de poste;MOTI
+JOU;Options employé;IJICDRPLAN;Report minimum;SECH
+JOU;Compteurs annuels;IJRNDIMTRA;Nbre de dimanche travaillés annuel;HJOU
+JOU;Congés;IJRDCOFRAC;Droit congé fractionnement;HJOU
+SEH;Données personnalisées;IJICDRPLAF;Report maximum;SECH
+CFG;Données globales;IGIREFRTT;Date de référence RTT (JJMM);CONF
+JOU;RTT;IJRARTTHEU;Droit RTT (H);HJOU
+PRO;Données générales;IPIVDEBOR1;Seuil heures excédentaires en entrée;PROF
+ACT;Données personnalisées;IMITTEFFFJ;Participe au temps travail effectif FJ;MOTI
+JOU;Options employé;IJICATEGOR;Catégorie;HJOU
+ACT;Données personnalisées;IMIGPANINU;Participe au panier nuit;MOTI
+JOU;RTT;IJRARTTJOU;Droit RTT (J);HJOU
+HOR;Données générales;IHIABTRTT;Seuil abattement RTT;HORC
+EMP;Protecsys;IEIPRTNIV1;Protecsys niveau 1;EMPL
+PRO;Données générales;IPIHDPRBHS;Début de mission autorisée;PROF
+SEH;Données personnalisées;IJIGACTBAD;Activité badgée autorisée;HJOU
+PRO;Données générales;IPIVPREANB;Valeur de crédit ou débit;PROF
+ACT;Données personnalisées;IMIGDEBCRE;Participe au Crédit/Débit;MOTI
+JOU;Compteurs journaliers;IJQHNUITBA;Heures de nuit;HJOU
+JOU;Plages;IJQSORTIE3;Sortie 3;HJOU
+CFG;Seuils et dates de référence;IDISCONTHS;Contingent HS;PARD
+JOU;Délégation CSE;IJRMTCSE;Transfert mensuel (H);HJOU
+CFG;Seuils et dates de référence;IDIVOBJTHA;Théorie annuelle;PARD
+CFG;Définition des motifs;IDIVMDONCP;Absence sur don;PARD
+JOU;Compteurs hebdomadaires;IJRNABSPFH;Nbre de retards hebdomadaires;HJOU
+CFG;Congés ancienneté;IDIDCANC4;Droit congé ancienneté 4 "régime 1";PARD
+JOU;RTT;IJRSNBHRTT;Solde RTT (H);HJOU
+CFG;Seuils et dates de référence;IDISJABSI;Seuil Présomption démission;PARD
+PRO;Données générales;IPINPRIEQJ;Prime de jour;PROF
+JOU;Compteurs journaliers;IJQTTEFFEJ;Heures effectives;HJOU
+CFG;Définition des motifs;IDIVMRCREC;Motif récupération RC;PARD
+JOU;Prépaie;IJRNBMOTIH;Nombre de motifs hebdomadaire;HJOU
+CFG;Données globales;IGIDLSTEXP;Date de dernier export du réglementaire;CONF
+SEH;Données personnalisées;IJICDPLAFO;Crédit maximum;SECH
+JOU;Délégations;IJRCDELDFS;Pris délégation DFS;HJOU
+JOU;RTT;IJRACRTTJM;RTT acquis mensuel (J);HJOU
+JOU;Droits délégations;IJIDACSET;Droit annuel théorique CSE (H);HJOU
+JOU;Plages;IJQENTREE4;Entrée 4;HJOU
+HOR;Congés;IHIVMREFCP;Date de référence congé payé (JJMM);HORC
+ACT;Données personnalisées;IMIGPANIJR;Participe au panier jour;MOTI
+JOU;Heures supplémentaires;IJRHNUITAN;Cumul heures de nuit annuel;HJOU
+HOR;Seuil et taux HS/HC;IHIHCTAUX2;Heures compl. taux 2 (%);HORC
+PRO;Données générales;IPISPRIDIV;Seuil déclenchement prime divers;PROF
+JOU;Don/CET/Enfant malade;IJRSDONCP;Don jours de congés;HJOU
+JOU;Options employé;IJIREGCPAN;Régime des congés d'ancienneté;HJOU
+JOU;Options employé;IJIACQRTTJ;Acquis mensuel RTTJ;HJOU
+JOU;Plages;IJQENTREE7;Entrée 7;HJOU
+SEH;Données personnalisées;IJIGACTBAD;Activité badgée autorisée;SECH
+JOU;Compteurs journaliers;IJQECPAUSM;Ecart pause déjeuner;HJOU
+CFG;Seuils et dates de référence;IDIHDEBP;Découpage semaine;PARD
+CFG;Congés;IDIVMCOPRI;Congé payé;PARD
+JOU;Compteurs périodiques;IJRNABSPFM;Nbre de retards période;HJOU
+JOU;Compteurs annuels;IEQJTEAFJ;NbJ prév. travail effectif annuels FJ;EMPL
+EMP;Compteurs Prévisionnels;IEQSPGCONG;Solde global des congés;EMPL
+JOU;Délégation CSE;IJRMDCSE1;Droit mensuel M-1 (H);HJOU
+JOU;Heures supplémentaires;IJRHSHMAJA;Cumul annuel HS/HC payées;HJOU
+HOR;Données générales;IHINFORFJ;Forfait jour CSE;HORC
+PRO;Données générales;IPISPANINU;Seuil déclenchement prime panier nuit;PROF
+JOU;Compteurs hebdomadaires;IJRABSPLFH;Total absences plages hebdomadaires;HJOU
+JOU;Plages;IJQSORTIE1;Sortie 1;HJOU
+JOU;Options employé;IJIGCREDEB;Autorisation Crédit/Débit;HJOU
+CFG;Contraintes légales;IDIHSMINEU;Seuil HS pour les moins de 18 ans;PARD
+JOU;Heures supplémentaires;IJQHS2MARE;HS 50% à récup.;HJOU
+JOU;Options employé;IJIGCDTYPP;Période de traitement;SECH
+CFG;Paramètres généraux;IDIDURWBA;Durée ajoutée si pointage WBA;PARD
+JOU;Congés;IJRRRCPM1;Congé reporté (maladie -1 an);HJOU
+JOU;Congés;IJRDARRET;Date d'arrêt (report CP);HJOU
+CFG;Paramètres généraux;IDICALFRAC;Calcul Congés fractionnement;PARD
+JOU;Congés;IJRFRRCPM1;Date de perte;HJOU
+CFG;Congés ancienneté;IDIDCANNC4;Droit congé ancienneté 4 "régime 2";PARD
+JOU;Droits délégations;IJIDDELDFS;Droit délégation DFS;HJOU
+SEH;Données personnalisées;IJIGCDTYPP;Période de traitement;HJOU
+CFG;Seuils et dates de référence;IDIDRAZRFJ;Date RAZ repos N-1 FJ (JJMM);PARD
+ACT;Données personnalisées;IMIGHRPAYE;Participe aux heures payées;MOTI
+HOR;Congés;IHIMOACQCP;Mode d'acquisition des congés;HORC
+JOU;Compteurs périodiques;IJRTTMENS;Compteur télétravail mensuel;HJOU
+EMP;Paramétrage individuel;IEIEMPLOI;Type d'emploi;EMPL
+EMP;Paramétrage individuel;IEIQUALIF;Qualification;EMPL
+PRO;Données générales;IPIHFPRBHS;Fin de mission autorisée;PROF
+CFG;Congés;IDIMAIN3;Nb jours maintien 3;PARD
+CFG;Congés;IDIMAIN4;Nb jours maintien 4;PARD
+JOU;Options employé;IJIGHSUPPM;Régime HS/HC;SECH
+JOU;Congés;IJRDPERTE;Date de perte congés;HJOU
+PRO;Données générales;IPIGMISSTH;Complément mission théorie;PROF
+HOR;Congés;IHIREPCON;Acquisition fin de période;HORC
+SEH;Données personnalisées;IJIGHSUPPR;Modalité HS;HJOU
+JOU;Délégation CSE;IJRMDCSE6;Droit mensuel M-6 (H);HJOU
+HOR;Données générales;IHIEQALT;Equipes successives alternantes;HORC
+SEH;Données personnalisées;IJIREGCPAN;Régime des congés d'ancienneté;HJOU
+ACT;Données personnalisées;IMIGPRIDIV;Participe au calcul de la prime divers;MOTI
+JOU;Compteurs hebdomadaires;IJRPRESBAH;Présence badgée hebdomadaire;HJOU
+ACT;Données personnalisées;IMIGHNUITT;Maintien des heures de nuit;MOTI
+HOR;Congés;IHIGESRELI;Gestion des reliquats;HORC
+SEH;Données personnalisées;IJICDRPLAN;Report minimum;SECH
+JOU;Options employé;IJICDRPLAF;Report maximum;SECH
+JOU;Compteurs journaliers;IJRCREDEBC;Crédit/Débit cumulé;HJOU
+JOU;Compteurs journaliers;IJQPRESNBJ;Activités créditées;HJOU
+JOU;Congés;IJRSGCONGE;Solde global des congés;HJOU
+JOU;Compteurs annuels;IJRPLFAFJ;Plafond annuel FJ;HJOU
+JOU;Congés;IJRNBCPSAM;Nb de congés samedi;HJOU
+CTR;Données du contrat;ICIPERIODE;Date de fin de période d'essai;CTRA
+CFG;Congés;IDIVMCOANC;Congé ancienneté;PARD
+CFG;Seuils et dates de référence;IDIVPLFTHA;Plafond théorique annuel FJ;PARD
+JOU;Compteurs périodiques;IJRNJPRESP;Nbre de jours de présence mensuel;HJOU
+JOU;Compteurs périodiques;IJRCDPERMA;Crédit/Débit;HJOU
+EMP;Paramétrage individuel;IEIDATEIA;Date du dernier entretien individuel;EMPL
+CFG;Congés;IDIANC3;Ancienneté 3;PARD
+JOU;Options employé;IJIACOPRIN;Gestion acquis congé payé;HJOU
+JOU;Compteurs annuels;IJRECARANN;Solde contrat;HJOU
+JOU;Congés;IJRCPTJTRA;Présence annuelle;HJOU
+JOU;Compteurs hebdomadaires;IJRPRETHEH;Théorie hebdomadaire;HJOU
+CFG;Congés ancienneté;IDIDCANC5;Droit congé ancienneté 5 "régime 1";PARD
+JOU;Don/CET/Enfant malade;IJRSOLDCET;Solde CET;HJOU
+CFG;Définition des motifs;IDIVMOMIBL;Motif mission du lendemain badgée;PARD
+JOU;Don/CET/Enfant malade;IJRSCENFMA;Solde congé enfant malade;HJOU
+EMP;Protecsys;IEIPRTNIV3;Protecsys niveau 3;EMPL
+JOU;Délégation CSE;IJRMDCSE7;Droit mensuel M-7 (H);HJOU
+JOU;RTT;IJRCRTTJOU;Pris RTT (J);HJOU
+CFG;Congés;IDIANC2;Ancienneté 2;PARD
+CFG;Congés ancienneté;IDIDCANC6;Droit congé ancienneté 6 "régime 1";PARD
+CFG;Définition des motifs;IDIACTBAD;Activité badgée au lecteur;PARD
+JOU;Prépaie;IJQHJFTRAV;Heures fériées;HJOU
+JOU;Compteurs journaliers;IJQPAUMERI;Pause déjeuner;HJOU
+HOR;Congés;IHIMAIN4;Nb jours maintien 4;HORC
+SEH;Données personnalisées;IJICDRPLAN;Report minimum;HJOU
+CFG;Congés ancienneté;IDISANC6;Seuil ancienneté 6 "régime 1";PARD
+EMP;Protecsys;IEIPRTNIV2;Protecsys niveau 2;EMPL
+PRO;Données générales;IPISABSPLF;Seuil absences plages;PROF
+HOR;Seuil et taux HS/HC;IHIHSTAUX1;HS taux 1 (%);HORC
+ACT;Données personnalisées;IMIGTPAUS5;Participe au temps de pause 5%;MOTI
+JOU;Délégation CSE;IJRATCSEF;Transfert CSE (forfait jour);HJOU
+JOU;Prépaie;IJQNPREQUN;Prime nuit;HJOU
+PRO;Données générales;IPIGDEBORD;Crédit heures excédentaires;PROF
+JOU;Compteurs hebdomadaires;IJRNJTRAVH;Nbre de jours travaillés hebdomadaires;HJOU
+CFG;Congés ancienneté;IDISANNC3;Seuil ancienneté 3 "régime 2";PARD
+CFG;Seuils et dates de référence;IDIHCTAUX2;HC taux 2 (%);PARD
+JOU;Compteurs périodiques;IJQHECRETP;Heures écrêtées Crédit/Débit;HJOU
+SEH;Données personnalisées;IJIGCREDEB;Autorisation Crédit/Débit;HJOU
+JOU;Délégation CSE;IJRASCSEF;Solde CSE (forfait jour);HJOU
+JOU;Délégation CSE;IJRMDCSE3;Droit mensuel M-3 (H);HJOU
+SEH;Données personnalisées;INMISS;Missions autorisées;SECH
+JOU;Délégation CSE;IJRADCSE;Droit annuel réel (H);HJOU
+PRO;Données générales;IPIVMISSDV;Début mission sur départ la veille;PROF
+JOU;Compteurs journaliers;IJQHECRETJ;Heures écrêtées;HJOU
+CTR;Données du contrat;ICICARACTE;Caractéristique;CTRA
+JOU;Options employé;IJIACOPRIN;Gestion acquis congé payé;SECH
+JOU;Compteurs périodiques;IJRABSPLFM;Total absences plages période;HJOU
+JOU;Options employé;IJICDPLAFO;Crédit maximum;SECH
+PRO;Données générales;IPIVHFISRM;Fin sans retour mission;PROF
+HOR;Seuil et taux HS/HC;IHIHCTAUX1;Heures compl. taux 1 (%);HORC
+JOU;Plages;IJQSORTIE5;Sortie 5;HJOU
+CFG;Congés ancienneté;IDIDCANC1;Droit congé ancienneté 1 "régime 1";PARD
+CFG;Seuils et dates de référence;IDIDDEBFJ;Début période gestion convention FJ;PARD
+JOU;Congés;IJRSCOFRAC;Solde congé fractionnement;HJOU
+JOU;Plages;IJQSORTIE7;Sortie 7;HJOU
+PRO;Données générales;IPIGABSPLF;Contrôle absences plages;PROF
+HOR;Congés;IHIMAIN3;Nb jours maintien 3;HORC
+CFG;Congés ancienneté;IDISANC3;Seuil ancienneté 3 "régime 1";PARD
+JOU;Délégation CSE;IJRADCSEF;Droit CSE (forfait jour);HJOU
+CFG;Congés;IDIVMCOFRA;Congé fractionnement;PARD
+CFG;Congés;IDISENFMA3;Seuil 2 âge enfant malade;PARD
+JOU;Heures supplémentaires;IJQHS1MARE;HS 25% à récup.;HJOU
+ACT;Données personnalisées;IMIGPRIEQJ;Participe au calcul de la prime de jour;MOTI
+JOU;Plages;IJQENTREE3;Entrée 3;HJOU
+JOU;Délégation CSE;IJRMPCSE;Pris mensuel (H);HJOU
+JOU;Compteurs journaliers;IJQPAUSMAT;Pause première plage;HJOU
+CFG;Congés ancienneté;IDISANC4;Seuil ancienneté 4 "régime 1";PARD
+CFG;Congés;IDIVMRCP;Report congé;PARD
+EMP;Gestion de véhicules;IEIMODELE;Modèle de véhicule;EMPL
+JOU;Options employé;IJIGCREDEB;Autorisation Crédit/Débit;SECH
+CFG;Contraintes légales;IDIMINLEGA;Seuil minimum légal temps partiel;PARD
+CFG;Seuils et dates de référence;IDISRTTEMP;Nombre de jours RTT employeur;PARD
+JOU;Compteurs annuels;IJRSCPCET;Solde CET au titre des congés payés;HJOU
+ACT;Données personnalisées;IMIGPRIEQN;Participe au calcul de la prime de nuit;MOTI
+ACT;Données personnalisées;IMIGCREDNB;Crédit heures totales non badgeants;MOTI
+PRO;Données générales;IPISPANIJR;Seuil déclenchement prime panier jour;PROF
+PRO;Données générales;IPIGHNUIMA;Maintien des heures de nuit;PROF
+JOU;Compteurs annuels;IJQHSMAPAA;Heures supplémentaires 25% annuelles;HJOU
+CTR;Données du contrat;ICIDEROGTP;Dérogation minimum légal temps partiel;CTRA
+CFG;Seuils et dates de référence;IDISACQRTT;Seuil RTT;PARD
+JOU;Congés;IJRJTRAM;Présence mensuelle;HJOU
+JOU;Compteurs annuels;IJRNJPRESA;Nbre de jours de présence annuel;HJOU
+JOU;Prépaie;IJQHDIMTRA;Heures de dimanche;HJOU
+JOU;Compteurs annuels;IJRJEAAFJ;Nb J assimilé trav. eff. annuels FJ;HJOU
+CFG;Paramètres généraux;IDIGNPAUSM;Contrôle de la pause déjeuner;PARD
+ACT;HQ Calendar;IMISTATUT;Statut du RDV;MOTI
+ACT;Données personnalisées;IMIGHRSSUP;Participe aux HS/HC;MOTI
+JOU;Compteurs hebdomadaires;IJRTTHEBDO;Compteur télétravail hebdomadaire;HJOU
+CFG;Congés;IDIREP15M;Nb mois report congé maladie;PARD
+JOU;Compteurs journaliers;IJQPAUSE5J;Pause 5%;HJOU
+JOU;Compteurs journaliers;IJQECPAUSO;Ecart pause seconde plage;HJOU
+PRO;Données générales;IPIGPANINU;Panier nuit;PROF
+CFG;Congés;IDIMAIN1;Nb jours maintien 1;PARD
+JOU;Télétravail;IJRTTMENS;Compteur télétravail mensuel;HJOU
+JOU;Droits délégations;IJIDATFDDS;Fin de mandat délégation DS;HJOU
+HOR;Seuil et taux HS/HC;IHISHSMTX1;Seuil HS taux 1;HORC
+PRO;Données générales;IPIVDEBOR2;Seuil heures excédentaires en sortie;PROF
+JOU;Pénibilité;UNITTRV;Unité de travail;HJOU
+JOU;Plages;IJQENTREE2;Entrée 2;HJOU
+ACT;Données personnalisées;IMIMATRICS;Matricule à créditer CSE;MOTI
+CFG;Seuils et dates de référence;IDIDDEBANN;Début période annualisation;PARD
+CFG;Données globales;ITIVMREFCP;Date de référence congé payé (JJMM);CONF
+JOU;Prépaie;IJQHSAMTRA;Heures de samedi;HJOU
+JOU;Compteurs périodiques;IJRNJTRAVM;Nbre de jours travaillés mensuel;HJOU
+JOU;Compteurs journaliers;IJQHPAYEES;Heures payées;HJOU
+JOU;Options employé;IJIMIAPRNB;Minimum pour crédit ou débit;HJOU
+PRO;Données générales;IPIGPAUSME;Pause créditée;PROF
+JOU;Compteurs journaliers;IJQHEXCEDJ;Heures totales excédentaires;HJOU
+EMP;Paramétrage individuel;IEIMEMBCSE;Membre CSE;EMPL
+JOU;Congés;IJRACQMAL;Acquisition annuelle sur maladie;HJOU
+SEH;Données personnalisées;IJIGBADGEA;Badgeant;HJOU
+PRO;Données générales;IPIFPAUSBA;Pause badgée;PROF
+JOU;Compteurs journaliers;IJQECPAUMA;Ecart pause première plage;HJOU
+JOU;Prépaie;IJQNPREQUJ;Prime jour;HJOU
+JOU;Compteurs annuels;IJRCTRPMOD;Contrat théorique annuel;HJOU
+JOU;Compteurs journaliers;IJQABSPLFJ;Total absences plages;HJOU
+JOU;Compteurs périodiques;IJRPRETHEM;Théorie période;HJOU
+SEH;Données personnalisées;IJIACOPRIN;Gestion acquis congé payé;SECH
+PRO;Données générales;IPISPRIEQN;Seuil déclenchement prime nuit;PROF
+JOU;Plages;HJVALPLN;Validation;HJOU
+EMP;Gestion des alertes;IEIMAXHEBD;Maximum Hebdomadaire;EMPL
+CFG;Seuils et dates de référence;IDISHSMTX1;Seuil HS taux 1;PARD
+CTR;Données du contrat;ICIGRPEMPL;Groupe d'emploi;CTRA
+CFG;Définition des motifs;IDIVMRTTSA;RTT salarié;PARD
+SEH;Données personnalisées;IJICDPLANC;Crédit minimum;HJOU
+PRO;Données générales;IPIGPAMMIS;Coupure déjeuner mission;PROF
+JOU;Compteurs journaliers;IJQHEXCED2;Heures excédentaires sortie;HJOU
+SEH;Données personnalisées;IJICDPLANC;Crédit minimum;SECH
+ACT;Données personnalisées;IMICODPLAN;Code sur planning;MOTI
+JOU;Heures supplémentaires;IJQHRNMAPA;HS payées non majorées;HJOU
+CFG;Congés ancienneté;IDISANNC1;Seuil ancienneté 1 "régime 2";PARD
+ACT;Données personnalisées;IMICONTCPS;Continuité de pose;MOTI
+HOR;Congés;IHIANC4;Ancienneté 4;HORC
+ACT;Données personnalisées;IMIMINOCP;Acquisition CP;MOTI
+JOU;Compteurs annuels;IJRHNUITAN;Cumul heures de nuit annuel;HJOU
+EMP;Compteurs Prévisionnels;IEQSPGCON2;Solde global des congés période 2;EMPL
+JOU;Délégation CSE;IJRCUPMCSE;Cumul pris mensuel (H);HJOU
+JOU;Heures supplémentaires;IJQHSNMARE;HC 10% à récup.;HJOU
+JOU;Compteurs journaliers;IJQPAUSSOI;Pause seconde plage;HJOU
+CFG;Congés;IDIMAIN2;Nb jours maintien 2;PARD
+CFG;Congés;IDIANC4;Ancienneté 4;PARD
+JOU;Délégation CSE;IJRMDCSE10;Droit mensuel M-10 (H);HJOU
+JOU;Options employé;IJIGHSUPPM;Régime HS/HC;HJOU
+CFG;Congés ancienneté;IDIDCANNC2;Droit congé ancienneté 2 "régime 2";PARD
+CFG;Définition des motifs;IDIVMABSI;Absence injustifiée;PARD
+CFG;Définition des motifs;IDIVMOTHSR;Motif récup. HS / HC;PARD
+JOU;Options employé;IJIGHSUPPR;Modalité HS/HC;HJOU
+JOU;Options employé;IJIGTICKRE;Droit tickets restaurant;SECH
+JOU;Délégations;IJRSDELEDS;Solde délégation DS;HJOU
+JOU;Compteurs journaliers;IJQPRETHEJ;Présence théorique jour;HJOU
+HOR;Seuil et taux HS/HC;IHIHSTAUX2;HS taux 2 (%);HORC
+JOU;Compteurs périodiques;IJRPRESBAM;Présence badgée période;HJOU
+JOU;Droits délégations;IJIDACSEM;Droit annuel mandat theo CSE (H);HJOU
+CFG;Seuils et dates de référence;IDIVHORCOH;Horaire hebdo temps plein;PARD
+SEH;Données personnalisées;IJIGTICKRE;Droit tickets restaurant;HJOU
+CFG;Définition des motifs;IDIVMRFJ;Motif repos forfait jour;PARD
+JOU;Heures supplémentaires;IJRNNUITRA;Nbre de nuits travaillées annuel;HJOU
+JOU;Options employé;IJIGACTBAD;Activité badgée autorisée;HJOU
+JOU;Délégation CSE;IJRAPCSE;Pris annuel (H);HJOU
+JOU;Prépaie;IJQNPANINU;Panier nuit;HJOU
+SEH;Données personnalisées;IJIGRETETR;Droit au RTT;SECH
+JOU;Télétravail;IJQTT;Compteur télétravail;HJOU
+CFG;Définition des motifs;IDIVMOMISB;Motif mission badgée;PARD
+ACT;Données personnalisées;IMIGRETETR;Participe au RTT;MOTI
+HOR;Seuil et taux HS/HC;IHISHSMTX2;Seuil HS taux 2;HORC
+CFG;Seuils et dates de référence;IDISRPEP;Nbre de jours de repos annuels;PARD
+CFG;Seuils et dates de référence;IDIHCTAUX1;HC taux 1 (%);PARD
+CFG;Contraintes légales;IDIMAJOCSE;Taux de majoration maxi droit CSE;PARD
+SEH;Données personnalisées;INSALA;Transfert paie;SECH
+JOU;Congés;IJRSACQCP;Solde CP en cours;HJOU
+JOU;Options employé;IJIVAPRENB;Valeur du crédit ou du débit;HJOU
+SEH;Données personnalisées;IJIGRETETR;Droit au RTT;HJOU
+CFG;Seuils et dates de référence;IDIHSTAUX1;HS taux 1 (%);PARD
+JOU;Plages;IJQENTREE5;Entrée 5;HJOU
+JOU;Délégation CSE;IJRMSCSE;Solde mensuel (H);HJOU
+JOU;Compteurs annuels;IJRSCTFJ;Ecart plafond FJ;HJOU
+CFG;Contraintes légales;IDISMXTHEB;Total maximum hebdomadaire légal;PARD
+PRO;Données générales;IPIGPRIDIV;Prime divers;PROF
+JOU;Plages;IJQPLGMAT;Durée des plages matin;HJOU
+JOU;Congés;IJRABSCP;Nb absences abattant l'acquisition;HJOU
+JOU;Compteurs annuels;IJRRQREDU;Solde RC Repos réduit;HJOU
+JOU;Options employé;IJIGTICKRE;Droit tickets restaurant;HJOU
+CFG;Congés ancienneté;IDIDCANNC1;Droit congé ancienneté 1 "régime 2";PARD
+HOR;Données générales;IHIDEREPOS;Dérogation repos quotidien;HORC
+JOU;Prépaie;IJQNPRIDIV;Prime divers;HJOU
+ABS;Soldes;IEQSPGCONG;Solde prévisionnel des congés;EMPL
+CFG;Contraintes légales;IDISMXT12S;Moyenne max. légale sur 12 semaines;PARD
+PRO;Données générales;IPIABSFORS;Durée de l'absence soir forfaitaire;PROF
+PRO;Données générales;IPIVMIPANB;Minimum pour crédit ou débit;PROF
+JOU;Délégation CSE;IJRMDCSE5;Droit mensuel M-5 (H);HJOU
+JOU;Heures supplémentaires;IJRBHPAYEE;Base des heures payées;HJOU
+JOU;Congés;IJRJMALM;Nb jours maladie mensuel;HJOU
+CFG;Congés ancienneté;IDIDCANNC3;Droit congé ancienneté 3 "régime 2";PARD
+SEH;Données personnalisées;IJIGCREDEB;Autorisation Crédit/Débit;SECH
+SEH;Données personnalisées;IJIACOPRIN;Gestion acquis congé payé;HJOU
+CFG;Congés ancienneté;IDISANNC6;Seuil ancienneté 6 "régime 2";PARD
+HOR;Congés;IHIDRJTRAV;Acquis congé payé;HORC
+JOU;Compteurs journaliers;IJQNTICKRE;Ticket Restaurant;HJOU
+JOU;Prépaie;IJRDURMOTH;Durée des motifs hebdomadaire;HJOU
+JOU;Heures supplémentaires;IJRSHSMREH;Récupération HS/HC;HJOU
+JOU;Délégation CSE;IJRAPCSEF;Pris CSE (forfait jour);HJOU
+JOU;Plages;IJQSORTIE4;Sortie 4;HJOU
+CFG;Paramètres généraux;IDIGRAZCPT;Raz des compteurs en début de contrat;PARD
+ACT;Données personnalisées;IMIGDURABS;Gestion de la durée du motif;MOTI
+JOU;Plages;IJQPLGTOTJ;Durée totale des plages;HJOU
+JOU;Options employé;INMISS;Mission autorisée;HJOU
+EMP;Compteurs Prévisionnels;IEQSPRTTJO;Solde RTT en jours;EMPL
+CFG;Paramètres généraux;IDIOUVERTU;Ouverture hebdomadaire;PARD
+ACT;Données personnalisées;IMIGTTEFFE;Participe au travail effectif;MOTI
+JOU;Compteurs journaliers;IJQHEXCED1;Heures excédentaires entrée;HJOU
+CFG;Congés ancienneté;IDISANC5;Seuil ancienneté 5 "régime 1";PARD
+JOU;Compteurs annuels;IJRNNUITRA;Nbre de nuits travaillées annuel;HJOU
+JOU;Options employé;IJIGHSUPPR;Modalité HS/HC;SECH
+CFG;Congés;IDIENFMAL1;Droit enfant malade;PARD
+HOR;Données générales;IHINBABRTT;Nombre RTT abattu;HORC
+PRO;Données générales;IPINPRIEQN;Prime de nuit;PROF
+JOU;Congés;IJRCCOANCI;Pris congé ancienneté;HJOU
+JOU;Droits délégations;IJIDATDDFS;Date début de mandat délégation DFS;HJOU
+JOU;Congés;IJRSCORELI;Solde reliquat CP;HJOU
+HOR;Données générales;IHICODPLAN;Code sur planning;HORC
+JOU;Compteurs journaliers;IJQPAUS5TH;Pause 5% théorique;HJOU
+HOR;Seuil et taux HS/HC;IHISEUILHS;Seuil paiement des HS;HORC
+JOU;Compteurs hebdomadaires;IJRBHORVAH;Heures totales hebdomadaires;HJOU
+EMP;Paramétrage individuel;IEIDIVER01;Divers;EMPL
+JOU;Congés;IJRRRCP2M1;Congé reporté (2ème maladie -1 an);HJOU
+ACT;Données personnalisées;IMIABTRTT;Abattement RTT;MOTI
+JOU;Compteurs annuels;IJRNSAMTRA;Nbre de samedi travaillés annuel;HJOU
+JOU;Prépaie;IJQNPANIJR;Panier jour;HJOU
+CFG;Paramètres généraux;IDIGDPAUSM;Déduction coupure maximum;PARD
+JOU;Compteurs périodiques;IJRTTEFFEM;Heures effectives période;HJOU
+JOU;Options employé;IJIGRETETR;Droit au RTT;SECH
+JOU;Congés;IJRDACQCP;Droit CP en cours;HJOU
+CFG;Paramètres généraux;IDIGDEBCRE;Crédit cumulé permanent;PARD
+JOU;Compteurs hebdomadaires;IJRNJPRESH;Nbre de jours de présence hebdomadaires;HJOU
+JOU;Délégations;IJRSDELDFS;Solde délégation DFS;HJOU
+SEH;Données personnalisées;IJICDPLAFO;Crédit maximum;HJOU
+JOU;Compteurs annuels;IJRSJRF;Solde repos N-1 FJ;HJOU
+EMP;Paramétrage individuel;IEIFREQVMR;Fréquence visite médicale renforcée;EMPL
+JOU;Droits délégations;IJIDFIN;Fin de mandat délégation CSE;HJOU
+JOU;Heures supplémentaires;IJQHS2MAPA;HS 50%;HJOU
+EMP;Paramétrage individuel;IEICOEFFIC;Coefficient;EMPL
+PRO;Données générales;IPIABSFORJ;Durée de l'absence jour forfaitaire;PROF
+JOU;Compteurs hebdomadaires;IJRCDPERMA;Crédit/Débit;HJOU
+SEH;Données personnalisées;IJIGCDTYPP;Période de traitement;SECH
+PRO;Données générales;IPISPRIEQJ;Seuil déclenchement prime jour;PROF
+CFG;Définition des motifs;IDIXPRES;Motif de présence non badgeant;PARD
+JOU;Congés;IJRRRCPP1;Congé reporté (maladie +1 an);HJOU
+PRO;Données générales;IPIVFPAUSO;Durée pause seconde plage;PROF
+JOU;Prépaie;IJQHNUITTO;Heures de nuit payées;HJOU
+EMP;Gestion de véhicules;IEIIMMATRI;Immatriculation;EMPL
+EMP;Gestion des alertes;IEIMAXANNU;Maximum annuel;EMPL
+HOR;Congés;IHIDRCPMAL;Acquis congé payé maladie;HORC
+JOU;Congés;IJRDCOANCI;Droit congé ancienneté;HJOU
+JOU;Heures supplémentaires;IJQHCNMAPA;HC payées non majorées;HJOU
+JOU;Don/CET/Enfant malade;IJRSDONABS;Solde jours d'absences sur don;HJOU
+JOU;Heures supplémentaires;IJQHSNMAR2;HC 25% à récup.;HJOU
+CTR;Données du contrat;ICITAUX;Taux;CTRA
+CFG;Congés ancienneté;IDIDCANNC5;Droit congé ancienneté 5 "régime 2";PARD
+SEH;Données personnalisées;IJIREGCPAN;Régime des congés d'ancienneté;SECH
+JOU;Heures supplémentaires;IJQHSNMAPA;HC 10%;HJOU
+JOU;Heures supplémentaires;IJRBHSMPAH;Base HS;HJOU
+JOU;Congés;IJRNBJMAIN;Nb jours maintien d'acquisition;HJOU
+SEH;Données personnalisées;IJIGTICKRE;Droit tickets restaurant;SECH
+JOU;Options employé;IJIGRETETR;Droit au RTT;HJOU
+JOU;Compteurs hebdomadaires;IJRPRESNBH;Activités créditées hebdomadaires;HJOU
+HOR;Données générales;IHIFORFJ;Forfait jour;HORC
+JOU;Options employé;INSALA;Transfert paie;SECH
+JOU;Télétravail;IJRTTHEBDO;Compteur télétravail hebdomadaire;HJOU
+JOU;Options employé;IJITYPCTRA;Temps de travail (%);HJOU
+JOU;Congés;IJRDCORELI;Droit reliquat CP;HJOU
+HOR;Congés;IHIMCOLE;Post-période de maintien;HORC
+CFG;Paramètres généraux;IDIGPRIBAD;Suppression activité si badgeage;PARD
+PRO;Données générales;IPIABSFORM;Durée de l'absence matin forfaitaire;PROF
+JOU;Plages;IJQPLGAPM;Durée des plages après-midi;HJOU
+JOU;Droits délégations;IJIDDELEDS;Droit délégation DS;HJOU
+CFG;Paramètres généraux;IDIEFFECTI;Effectif;PARD
+JOU;Options employé;IJIGCDTYPP;Période de traitement;HJOU
+JOU;Compteurs journaliers;IJQPRESBAJ;Présence badgée;HJOU
+PRO;Données générales;IPIVMOPANB;Motif de crédit ou débit;PROF
+PRO;Données générales;IPISRTTACD;Seuil acquis demi RTT;PROF
+JOU;Plages;IJQENTREE6;Entrée 6;HJOU
+CFG;Congés ancienneté;IDIDCANNC6;Droit congé ancienneté 6 "régime 2";PARD
+HOR;Données générales;IHINPRIST;Prime de poste;HORC
+CFG;Seuils et dates de référence;IDIHSTAUX2;HS taux 2 (%);PARD
+JOU;Congés;IJQACQM;Acquisition mensuelle;HJOU
+JOU;RTT;IJRNRTTJEM;Nbre RTT employeurs pris;HJOU
+JOU;Don/CET/Enfant malade;IJRSDONDIV;Don absences global;HJOU
+JOU;Options employé;INSALA;Transfert paie;HJOU
+JOU;Compteurs journaliers;IJQABSPLF2;Absence 2ème plage;HJOU
+JOU;Compteurs hebdomadaires;IJQHECRETP;Heures écrêtées Crédit/Débit;HJOU
+PRO;Données générales;IPISRTTACQ;Seuil acquis total RTT;PROF
+JOU;Heures supplémentaires;IJQHSNMAP2;HC 25%;HJOU
+PRO;Données générales;IPIVARTTSA;Acquis journalier RTT;PROF
+JOU;Options employé;IJICDRPLAN;Report minimum;HJOU
+EMP;Paramétrage individuel;IEIDVISITE;Date de la dernière visite médicale;EMPL
+JOU;Options employé;IJICDPLAFO;Crédit maximum;HJOU
+HOR;Congés;IHIMAIN1;Nb jours maintien 1;HORC
+JOU;Compteurs annuels;IJRNBABSI;Nb absences injustifiées;HJOU
+CFG;Contraintes légales;IDIMAXAMP;Amplitude jour max;PARD
+JOU;Prépaie;IJQPRIHOST;Prime de poste;HJOU
+JOU;Compteurs périodiques;IJRPRESNBM;Activités créditées période;HJOU
+JOU;Congés;IJRSCOPRIN;Solde CP;HJOU
+CFG;Congés ancienneté;IDISANNC5;Seuil ancienneté 5 "régime 2";PARD
+JOU;Délégation CSE;IJRMDCSE9;Droit mensuel M-9 (H);HJOU
+JOU;Heures supplémentaires;IJRSRCHSMA;Solde COR;HJOU
+JOU;Compteurs annuels;IJRNJTRAVA;Nbre de jours travaillés annuel;HJOU
+CFG;Congés;IDISENFMA1;Seuil 1 âge enfant malade;PARD
+JOU;Délégations;IJRDDELDFS;Droit délégation DFS;HJOU
+HOR;Données générales;IHINBRTT;Nbre de jours de repos annuels / RTT;HORC
+SEH;Données personnalisées;INMISS;Missions autorisées;HJOU
+JOU;Options employé;IJIREGCPAN;Régime des congés d'ancienneté;SECH
+JOU;Congés;IJRPACQCP;Pris CP en cours;HJOU
+JOU;RTT;IJRABTRTT;Nbre absence abattant RTT;HJOU
+CFG;Seuils et dates de référence;IDIDATPEHS;Début période HS payées avant fin cycle;PARD
+JOU;Compteurs annuels;IJRJTEAFJ;Nb J trav. eff. annuels FJ;HJOU
+JOU;Délégation CSE;IJRMDCSE2;Droit mensuel M-2 (H);HJOU
+JOU;Compteurs périodiques;IJRTTREFFM;Heures totales période;HJOU
+SEH;Données personnalisées;IJIGHSUPPM;Régime HS / HC;HJOU
+CFG;Congés ancienneté;IDISANC1;Seuil ancienneté 1 "régime 1";PARD
+JOU;Délégations;IJRDDELEDS;Droit délégation DS;HJOU
+EMP;Compteurs Prévisionnels;IEQSPRJCET;Solde CET en jours;EMPL
+JOU;Heures supplémentaires;IJQARCHSMA;COR acquis;HJOU
+PRO;Données générales;IPIVFPAUMA;Durée pause première plage;PROF
+JOU;Délégations;IJRCDELEDS;Pris délégation DS;HJOU
+JOU;Options employé;INMISS;Mission autorisée;SECH
+JOU;Droits délégations;IJIDATDEDS;Date début de mandat délégation DS;HJOU
+JOU;Pénibilité;IJIEMPLOI;Emploi occupé;HJOU
+SEH;Données personnalisées;IJIGBADGEA;Badgeant;SECH
+JOU;Délégation CSE;IJRATCSE;Transfert annuel (H);HJOU
+JOU;Compteurs journaliers;IJQABSPLF1;Absence 1ère plage;HJOU
+CFG;Congés;IDIENFMAL2;Droit enfant malade maximum;PARD
+JOU;Options employé;IJICDPLANC;Crédit minimum;HJOU
+JOU;Compteurs journaliers;IJQPRESBAV;Présence badgée validée;HJOU
+ACT;HQ Calendar;IMIINTOUTL;Transférer le motif ?;MOTI
+JOU;Droits délégations;IJIDATFDFS;Fin de mandat délégation DFS;HJOU
+JOU;Congés;IJRFRCP2M1;Date de perte;HJOU
+CFG;Définition des motifs;IDIVMRTTEM;RTT employeur;PARD
+JOU;Compteurs hebdomadaires;IJQECARTHE;Ecart hebdo / horaire de référence;HJOU
+JOU;Compteurs hebdomadaires;IJRTTEFFEH;Heures effectives hebdomadaires;HJOU
+EMP;Gestion de véhicules;IEIDATECTR;Date du prochain contrôle technique;EMPL
+JOU;Congés;IJRDCOPRIN;Droit CP;HJOU
+N/D;N/D;HDEB;Heure de début;ACTI
+N/D;N/D;HFIN;Heure de fin;ACTI
+N/D;N/D;CODELIEU;Lieu du poste;ACTI
+N/D;N/D;CODEQUAL;Qualification du poste;ACTI
+N/D;N/D;NOVAC;Numéro de vacation;ACTI
+N/D;N/D;FIXE;Affectation figée;ACTI
+N/D;N/D;VALIDE;Affectation validée;ACTI
+N/D;N/D;PRISPOST;Temps de prise de poste;ACTI
+N/D;N/D;FINPOST;Temps de fin de poste;ACTI
+N/D;N/D;DURAFF;Durée affectation;ACTI
+N/D;N/D;HORCHOISI;Affectation temps choisi;ACTI
+N/D;N/D;CODEQUART;Code quart;ACTI
+N/D;N/D;OCCU;Code occu;AFFE
+N/D;N/D;LIBELLE;Libellé;AFFE
+N/D;N/D;LIBCOURT;Libellé court;AFFE
+N/D;N/D;DATDEB;Date de début;AFFE
+N/D;N/D;DATFIN;Date de fin;AFFE
+N/D;N/D;ABREV;Abrev occu;AFFE
+N/D;N/D;ATTRIB;Code attribution;ATTR
+N/D;N/D;OCCU;Code occu;BESN
+N/D;N/D;LIBELLE;Libellé;BESN
+N/D;N/D;LIBCOURT;Libellé court;BESN
+N/D;N/D;DATDEB;Date de début;BESN
+N/D;N/D;DATFIN;Date de fin;BESN
+N/D;N/D;ABREV;Abrev occu;BESN
+N/D;N/D;MATRI;Code matricule;CADM
+N/D;N/D;DATDEB;Date de début;CADM
+N/D;N/D;DATEFFET;Date d'effet;CADM
+N/D;N/D;DATFIN;Date de fin;CADM
+N/D;N/D;NUMCONTRAT;Numéro de contrat;CADM
+N/D;N/D;TYPCTRA;Type de contrat admin./période d'emploi;CADM
+N/D;N/D;MOTIFJUS;Motif de justification;CADM
+N/D;N/D;DATPESSAI;Date de fin période d'essai;CADM
+N/D;N/D;DATCARENCE;Date délai de carence;CADM
+N/D;N/D;CODECRIT;Code critère;CRIT
+N/D;N/D;DATDEB;Date de début;CRIT
+N/D;N/D;DATFIN;Date de fin;CRIT
+N/D;N/D;DATE;Date;CRPL
+N/D;N/D;HREDEB;Heure de début de plage;CRPL
+N/D;N/D;HREFIN;Heure de fin de plage;CRPL
+N/D;N/D;DURAFF;Durée affectation;CRPL
+N/D;N/D;REMPLACE;Indicateur remplace;CRPL
+N/D;N/D;VALORIS;Code valorisation;CRPL
+N/D;N/D;REMPLACANT;Indicateur remplaçant;CRPL
+N/D;N/D;DATFIN;Date de fin;CTRA
+N/D;N/D;DATDEB;Date de début;CTRA
+N/D;N/D;TYPCTRA;Type de contrat admin./période d'emploi;CTRA
+N/D;N/D;CTRHORA;Code horaire du contrat;CTRA
+N/D;N/D;CTRRG;Rang code horaire contrat;CTRA
+N/D;N/D;BASEMINI;Base mini contrat;CTRA
+N/D;N/D;BASEMAXI;Base maxi contrat;CTRA
+N/D;N/D;BASECONT;Base du contrat;CTRA
+N/D;N/D;BASEDROG;Base dérogée contrat;CTRA
+N/D;N/D;TYPEPLAN;Type de planification;CTRA
+N/D;N/D;DATCARENCE;Date délai de carence;CTRA
+N/D;N/D;PLANNUEL;Régime d'annualisation;CTRA
+N/D;N/D;VIRTUEL;Provisoire;CTRA
+N/D;N/D;ICIQUALIF;Qualification;CTRA
+N/D;N/D;ICRSNUITTR;Seuil nuits travaillée;CTRA
+N/D;N/D;ICRSJFTRAV;Seuil jours fériés travaillés;CTRA
+N/D;N/D;ICRSWETRAV;Seuil Nombre Week-end travaillés;CTRA
+N/D;N/D;ICINUMCONT;N° de contrat (Peoplenet);CTRA
+N/D;N/D;OCCU;Code occu;DISP
+N/D;N/D;LIBELLE;Libellé;DISP
+N/D;N/D;LIBCOURT;Libellé court;DISP
+N/D;N/D;DATDEB;Date de début;DISP
+N/D;N/D;DATFIN;Date de fin;DISP
+N/D;N/D;ABREV;Abrev occu;DISP
+N/D;N/D;PROFIL;Code profil horaire;DISP
+N/D;N/D;DISPO;Code dispo;DISP
+N/D;N/D;TVALORIS;Valorisations autorisées;DISP
+N/D;N/D;SAISIEHR;Saisie des heures;DISP
+N/D;N/D;AREMPL;A remplacer;DISP
+N/D;N/D;NOMRED;Nom abrégé de l'Employé;EMPL
+N/D;N/D;MATRI;Code matricule;EMPL
+N/D;N/D;NOMPRE;Nom et prénom de l'employé;EMPL
+N/D;N/D;DATOUV;Date d'ouverture fiche individuelle;EMPL
+N/D;N/D;DATCLO;Date de cloture de la fiche individuelle;EMPL
+N/D;N/D;HORSECT;Code section;EMPL
+N/D;N/D;DATTRAI;Date de traitement;EMPL
+N/D;N/D;FRONTAL;Numéro de frontal;EMPL
+N/D;N/D;SECTION;Section d'imputation;EMPL
+N/D;N/D;REPARTI;Code répartition analytique;EMPL
+N/D;N/D;DATBUTEE;Date limite de calcul;EMPL
+N/D;N/D;AFFICH;Code affichage;EMPL
+N/D;N/D;LANGUE;Code langue;EMPL
+N/D;N/D;GROUPH;Groupe hiérarchique;EMPL
+N/D;N/D;IMP;Mode implicite (AT);EMPL
+N/D;N/D;MODE_TRV;Mode de travail J/S/M;EMPL
+N/D;N/D;TYP_GEST;Type de gestion (AT);EMPL
+N/D;N/D;CLE_POP;Population;EMPL
+N/D;N/D;EVTDEF;Evénement par défaut;EMPL
+N/D;N/D;INITIALE;Initiales de l'employé;EMPL
+N/D;N/D;NOM;Nom de l'employé;EMPL
+N/D;N/D;PRENOM;Prénom de l'employé;EMPL
+N/D;N/D;E1RAISONCL;Code raison;EMPL
+N/D;N/D;VIRTUEL;Provisoire;EMPL
+N/D;N/D;E1INTERIM;Intérimaire;EMPL
+N/D;N/D;E1SOCINTE;Société d'intérim;EMPL
+N/D;N/D;IEQSPRTTHE;Solde prévisionnel RTT en heures;EMPL
+N/D;N/D;IEQTTREFFA;Temps de travail effectif annuel;EMPL
+N/D;N/D;IEICTRANNU;Contrat annuel;EMPL
+N/D;N/D;IEQECARANN;Ecart annuel;EMPL
+N/D;N/D;IEQSHSMRE1;Solde prévisionnel 1 HS à recup.;EMPL
+N/D;N/D;IEQSHSMRE2;Solde prévisionnel 2 HS à recup.;EMPL
+N/D;N/D;IEQSDELCSE;Solde délégation CSE;EMPL
+N/D;N/D;IEQRQREDU;Solde RC;EMPL
+N/D;N/D;IEICODEGRP;Code groupe;EMPL
+N/D;N/D;IEQSPRCHSM;Solde COR prévisionnel;EMPL
+N/D;N/D;IEQPRNJTRA;Nbre de jours travaillés annuel prév.;EMPL
+N/D;N/D;IEQSPRTTJ2;Solde prév. RTT en jours période 2;EMPL
+N/D;N/D;IEIDCPAN;Droit CPAN acquis;EMPL
+N/D;N/D;IEIACTI;Employé géré en activité;EMPL
+N/D;N/D;E2SEXE;Code sexe;EMPS
+N/D;N/D;E2CIVILITE;Civilité;EMPS
+N/D;N/D;E2NOMJF;Nom de jeune fille;EMPS
+N/D;N/D;E2DATENAI;Date de naissance;EMPS
+N/D;N/D;E2LIEUNAI;Lieu de naissance;EMPS
+N/D;N/D;E2PAYSNAI;Pays de naissance;EMPS
+N/D;N/D;E2NATION;Nationalité;EMPS
+N/D;N/D;E2DATEANC;Date d'ancienneté;EMPS
+N/D;N/D;E2DATEREC;Date de recrutement;EMPS
+N/D;N/D;E2ADRESSE1;Adresse partie 1;EMPS
+N/D;N/D;E2ADRESSE2;Adresse partie 2;EMPS
+N/D;N/D;E2CODPOST;Code postal;EMPS
+N/D;N/D;E2VILLE;Ville;EMPS
+N/D;N/D;IDPOINT;Position;EMPS
+N/D;N/D;E2TELEPHO1;Téléphone 1;EMPS
+N/D;N/D;E2TELEPHO2;Téléphone 2;EMPS
+N/D;N/D;E2TELEPHO3;Téléphone 3;EMPS
+N/D;N/D;E2SITUMARI;Situation maritale;EMPS
+N/D;N/D;E2DATEMARI;Date dernière situation maritale;EMPS
+N/D;N/D;ENFNOM;Nom de l'enfant;ENFT
+N/D;N/D;ENFPRENOM;Prénom de l'enfant;ENFT
+N/D;N/D;ENFSEXE;Sexe de l'enfant;ENFT
+N/D;N/D;ENFDATENAI;Date de naissance enfant;ENFT
+N/D;N/D;ENFACHARGE;Enfant à charge;ENFT
+N/D;N/D;ENFHANDI;Handicap enfant;ENFT
+N/D;N/D;EVENEMENT;Type d'événement;EVEN
+N/D;N/D;MATRI;Code matricule;EVEN
+N/D;N/D;CLE_POP;Population;EVEN
+N/D;N/D;DATE_JOUR;Date de référence;EVEN
+N/D;N/D;DATE_DEB;Date de début de l'activité;EVEN
+N/D;N/D;DATE_FIN;Date de fin de l'activité;EVEN
+N/D;N/D;HEURE_DEB;Heure de début de l'activité;EVEN
+N/D;N/D;HEURE_FIN;Heure de fin de l'activité;EVEN
+N/D;N/D;ORDRE;Ordre;EVEN
+N/D;N/D;POURCENT;Pourcentage du temps de présence;EVEN
+N/D;N/D;DUREE_EVE;Durée de l'activité;EVEN
+N/D;N/D;PROFIL;Code profil horaire;EVEN
+N/D;N/D;VALEUR01;Valeur 01;EVEN
+N/D;N/D;VALEUR02;Valeur 02;EVEN
+N/D;N/D;VALEUR03;Valeur 03;EVEN
+N/D;N/D;VALEUR04;Valeur 04;EVEN
+N/D;N/D;VALEUR05;Valeur 05;EVEN
+N/D;N/D;VALEUR06;Valeur 06;EVEN
+N/D;N/D;VALEUR07;Valeur 07;EVEN
+N/D;N/D;VALEUR08;Valeur 08;EVEN
+N/D;N/D;VALEUR09;Valeur 09;EVEN
+N/D;N/D;VALEUR10;Valeur 10;EVEN
+N/D;N/D;UTILCRE;Créateur;EVEN
+N/D;N/D;DATCRE;Date de création;EVEN
+N/D;N/D;UTILMOD;Auteur de la modification;EVEN
+N/D;N/D;DATMOD;Date de dernière modification;EVEN
+N/D;N/D;TYPE_FRAIS;Indicateur de frais;EVEN
+N/D;N/D;NOMINT1;Flag interface 1;EVEN
+N/D;N/D;DATE_INT1;Date interface 1;EVEN
+N/D;N/D;NOMINT2;Flag interface 2;EVEN
+N/D;N/D;DATE_INT2;Date interface 2;EVEN
+N/D;N/D;NOMINT3;Flag interface 3;EVEN
+N/D;N/D;DATE_INT3;Date interface 3;EVEN
+N/D;N/D;NOMINT4;Flag interface 4;EVEN
+N/D;N/D;DATE_INT4;Date interface 4;EVEN
+N/D;N/D;ANO1;Anomalie 1;EVEN
+N/D;N/D;ANO2;Anomalie 2;EVEN
+N/D;N/D;ANO3;Anomalie 3;EVEN
+N/D;N/D;ANO4;Anomalie 4;EVEN
+N/D;N/D;ANO5;Anomalie 5;EVEN
+N/D;N/D;VISA1;Flag visa anomalie 1;EVEN
+N/D;N/D;VISA2;Flag visa anomalie 2;EVEN
+N/D;N/D;VISA3;Flag visa anomalie 3;EVEN
+N/D;N/D;VISA4;Flag visa anomalie 4;EVEN
+N/D;N/D;VISA5;Flag visa anomalie 5;EVEN
+N/D;N/D;UTILVISA;Dernier utilisateur visa;EVEN
+N/D;N/D;DATVISA;Dernière date visa;EVEN
+N/D;N/D;EVCODEEVT;Code événement;EVNT
+N/D;N/D;EVLIBEVT;Libellé événement;EVNT
+N/D;N/D;EVDATDEB;Date début;EVNT
+N/D;N/D;EVDATFIN;Date fin;EVNT
+N/D;N/D;MOTIF;Code motif;EVNT
+N/D;N/D;EVCODEEVT;Code événement;EVOC
+N/D;N/D;EVDATDEB;Date début;EVOC
+N/D;N/D;EVORDRE;Ordre;EVOC
+N/D;N/D;EVDATFIN;Date fin;EVOC
+N/D;N/D;EVLIBOCCU;Libellé occurrence;EVOC
+N/D;N/D;EVDUREEJ;Durée en jour;EVOC
+N/D;N/D;EVDUREEH;Durée en heure;EVOC
+N/D;N/D;EVETAT;Etat;EVOC
+N/D;N/D;EVNBINSC;Nombre d'inscrits;EVOC
+N/D;N/D;EVNBMAX;Nombre de places;EVOC
+N/D;N/D;EVDATLIM;Date limite d'inscription;EVOC
+N/D;N/D;MATRI;Code matricule;HABS
+N/D;N/D;DATE;Date;HABS
+N/D;N/D;MOTIF;Code motif;HABS
+N/D;N/D;VALORIS;Code valorisation;HABS
+N/D;N/D;MOTYPE;Type de motif;HABS
+N/D;N/D;NUMSEM;Numéro de semaine;HABS
+N/D;N/D;MOTIDUR;Durée de l'activité;HABS
+N/D;N/D;HRADEB;Début de plage d'activité;HABS
+N/D;N/D;HRAFIN;Fin de plage d'activité;HABS
+N/D;N/D;JOUR;Numéro de jour dans la semaine;HABS
+N/D;N/D;TYPJOU;Type de jour;HABS
+N/D;N/D;MOTIFINI;Code motif initial;HABS
+N/D;N/D;FONCTION;Fonction Self;HABS
+N/D;N/D;DATMOD;Date de dernière modification;HABS
+N/D;N/D;UTILMOD;Auteur de la modification;HABS
+N/D;N/D;DATE;Date;HCTR
+N/D;N/D;NUMSEM;Numéro de semaine;HCTR
+N/D;N/D;JOUR;Numéro de jour dans la semaine;HCTR
+N/D;N/D;TYPCTRA;Type de contrat admin./période d'emploi;HCTR
+N/D;N/D;CTRHORA;Code horaire du contrat;HCTR
+N/D;N/D;CTRRG;Rang code horaire contrat;HCTR
+N/D;N/D;CTRLGCY;Longueur du cycle contractuel;HCTR
+N/D;N/D;CTRHOR;Durée du cycle contractuel;HCTR
+N/D;N/D;CTRHORH;Durée hebdo cycle contractuel;HCTR
+N/D;N/D;CTRPROCY;Profil horaire contractuel;HCTR
+N/D;N/D;CTRPRECY;Théorique profil contractuel;HCTR
+N/D;N/D;CTRATTRI;Code attribution;HCTR
+N/D;N/D;PLANNUEL;Régime d'annualisation;HCTR
+N/D;N/D;ANNHORA;Code horaire d'annualisation;HCTR
+N/D;N/D;ANNRG;Rang code horaire d'annualisation;HCTR
+N/D;N/D;ANNLGCY;Longueur du cycle d'annualisation;HCTR
+N/D;N/D;ANNHOR;Durée du cycle d'annualisation;HCTR
+N/D;N/D;ANNHORH;Durée hebdo d'annualisation;HCTR
+N/D;N/D;ANNPROCY;Profil horaire d'annualisation;HCTR
+N/D;N/D;ANNPRECY;Théorique profil d'annualisation;HCTR
+N/D;N/D;ANNATTRI;Attribution d'annualisation;HCTR
+N/D;N/D;MATRI;Code matricule;HJOU
+N/D;N/D;DATE;Date;HJOU
+N/D;N/D;NUMSEM;Numéro de semaine;HJOU
+N/D;N/D;JOUR;Numéro de jour dans la semaine;HJOU
+N/D;N/D;TYPJOU;Type de jour;HJOU
+N/D;N/D;HORCODE;Code horaire;HJOU
+N/D;N/D;RANG;Rang dans le code horaire;HJOU
+N/D;N/D;PROFIL;Code profil horaire;HJOU
+N/D;N/D;ATTRIB;Code attribution;HJOU
+N/D;N/D;LGCYCLE;Longueur du cycle en jours;HJOU
+N/D;N/D;HORCYCLE;Durée totale du cycle en heures;HJOU
+N/D;N/D;HORHEB;Durée hebdomadaire du cycle en heures;HJOU
+N/D;N/D;PRECYCLE;Durée de la journée/cycle;HJOU
+N/D;N/D;PROCYCLE;Profil du cycle;HJOU
+N/D;N/D;SECTORI;Section d'origine;HJOU
+N/D;N/D;SECTAFF;Section d'affectation;HJOU
+N/D;N/D;GRAVITE;Niveau de gravité des anomalies;HJOU
+N/D;N/D;STATUT;Etat de la journée;HJOU
+N/D;N/D;IJRVICRD01;VI - C/D cumulé;HJOU
+N/D;N/D;IJRCDCUMAF;C/D cumulé affichage lecteur;HJOU
+N/D;N/D;IJRBHORVPR;Report base HV période de la veille;HJOU
+N/D;N/D;IJQETTEPRT;Ecart TTE / présence théorique;HJOU
+N/D;N/D;IJRHTRM12S;Temps de travail moyen sur 12 semaines;HJOU
+N/D;N/D;IJRBHORVMR;Report base HV mensuelle;HJOU
+N/D;N/D;IJRCDVEILL;C/D permanent veille;HJOU
+N/D;N/D;IJRNBRJCTR;Nombre de jours du contrat;HJOU
+N/D;N/D;IJRFRCPM1;Date fin report du congé maladie -1an;HJOU
+N/D;N/D;IJRFRCPP1;Date fin report du congé maladie +1an;HJOU
+N/D;N/D;IJQHRSBADG;Heures badgées au lecteur;HJOU
+N/D;N/D;IJQABSENTJ;Absence totale jour;HJOU
+N/D;N/D;IJQPREJENC;Présence jour en cours;HJOU
+N/D;N/D;IJQPRELEND;Présence du lendemain;HJOU
+N/D;N/D;IJRFFINPER;Flag fin de période horaire variable;HJOU
+N/D;N/D;IJRPREVEIL;Présence de la veille;HJOU
+N/D;N/D;IJQDEBADGT;Dernier badgeage théorique;HJOU
+N/D;N/D;IJRDBADGTV;Dernier badgeage théorique veille;HJOU
+N/D;N/D;IJQABSPLFT;Absence plages fixes jour;HJOU
+N/D;N/D;IJQDEBORDT;Présence badgée hors plage totale;HJOU
+N/D;N/D;IJQBHRSSUP;Base HS jour;HJOU
+N/D;N/D;IJIVMINBAD;Valeur minimum de badgeages;HJOU
+N/D;N/D;IJQNBADGEA;Nombre de badgeages;HJOU
+N/D;N/D;IJQNABSENT;Nombre d absences totales;HJOU
+N/D;N/D;IJINIMPUTA;Nombre d imputations (MAJ par AIBANA);HJOU
+N/D;N/D;IJQNACTIVJ;Nombre d activités;HJOU
+N/D;N/D;IJQNABSEN1;Nombre d absences matin;HJOU
+N/D;N/D;IJQNABSEN2;Nombre d absences après-midi;HJOU
+N/D;N/D;IJQMISSRET;Présence h. s.borne déb. et 1er pointage;HJOU
+N/D;N/D;IJRBRCHSMH;Base RC;HJOU
+N/D;N/D;IJQMISBADV;Présence hors site badgée la veille;HJOU
+N/D;N/D;IJQPAUMINT;Valeur interméd. abs. plage pause mérid.;HJOU
+N/D;N/D;IJIVCONTRA;Contrat hebdomadaire;HJOU
+N/D;N/D;IJQHMISSJE;Durée mission jour en cours;HJOU
+N/D;N/D;IJIM2PRENB;Motif présence non badgée;HJOU
+N/D;N/D;IJQHMISSLE;Durée mission du lendemain;HJOU
+N/D;N/D;IJQECPAUML;Ecart pause méridienne du lendemain;HJOU
+N/D;N/D;IJQVIDEBOR;VI - Présence badgée hors plage totale;HJOU
+N/D;N/D;IJQDEBADGV;Dernier badgeage validé;HJOU
+N/D;N/D;IJRSDBADGV;Sauvegarde dernier badgeage validé;HJOU
+N/D;N/D;IJQPRESBA1;Présence badgée matin;HJOU
+N/D;N/D;IJQPRESBA2;Présence badgée après-midi;HJOU
+N/D;N/D;IJQECPAUMI;Valeur intermed. écart pause méridienne;HJOU
+N/D;N/D;IJRHTRAS01;Temps de travail semaine 1;HJOU
+N/D;N/D;IJRHTRAS02;Temps de travail semaine 2;HJOU
+N/D;N/D;IJRHTRAS03;Temps de travail semaine 3;HJOU
+N/D;N/D;IJRHTRAS04;Temps de travail semaine 4;HJOU
+N/D;N/D;IJRHTRAS05;Temps de travail semaine 5;HJOU
+N/D;N/D;IJRHTRAS06;Temps de travail semaine 6;HJOU
+N/D;N/D;IJRHTRAS07;Temps de travail semaine 7;HJOU
+N/D;N/D;IJRHTRAS08;Temps de travail semaine 8;HJOU
+N/D;N/D;IJRHTRAS09;Temps de travail semaine 9;HJOU
+N/D;N/D;IJRHTRAS10;Temps de travail semaine 10;HJOU
+N/D;N/D;IJRHTRAS11;Temps de travail semaine 11;HJOU
+N/D;N/D;IJRHTRAS12;Temps de travail semaine 12;HJOU
+N/D;N/D;IJRNJOUTRA;Nombre de jours travaillés dans l année;HJOU
+N/D;N/D;IJQPRBADGV;Premier badgeage validé;HJOU
+N/D;N/D;IJQFMISPDJ;Flag pause médienne mission;HJOU
+N/D;N/D;IJRVCTANNM;Contrat périodique;HJOU
+N/D;N/D;IJQFMISBAD;Flag présence hors site badgée;HJOU
+N/D;N/D;IJQFMILPDJ;Flag pause mérid. prés. h.s.bad. lend.;HJOU
+N/D;N/D;IJQMISBADG;Présence hors site badgée;HJOU
+N/D;N/D;IJRBHORVHR;Report base HV hebdo;HJOU
+N/D;N/D;IJQNJTRAVJ;Nombre de jours travaillés jour;HJOU
+N/D;N/D;IJQNJPRESJ;Nombre de jours de présence jour;HJOU
+N/D;N/D;IJINPASLEC;Nombre de passages au lecteur;HJOU
+N/D;N/D;IJQPAUPPLA;Pause premiere plage;HJOU
+N/D;N/D;IJQPAUSPLA;Pause seconde plage;HJOU
+N/D;N/D;IJQMVTENT1;Mouvement entree1;HJOU
+N/D;N/D;IJQMVTENT2;Mouvement entree2;HJOU
+N/D;N/D;IJQMVTENT3;Mouvement entree3;HJOU
+N/D;N/D;IJQMVTENT4;Mouvement entree4;HJOU
+N/D;N/D;IJQMVTENT5;Mouvement entree5;HJOU
+N/D;N/D;IJQMVTSOR1;Mouvement sortie1;HJOU
+N/D;N/D;IJQMVTSOR2;Mouvement sortie2;HJOU
+N/D;N/D;IJQMVTSOR3;Mouvement sortie3;HJOU
+N/D;N/D;IJQMVTSOR4;Mouvement sortie4;HJOU
+N/D;N/D;IJQMVTSOR5;Mouvement sortie5;HJOU
+N/D;N/D;IJRTRRTCET;Cpt intermediaire transfert RTT/CET;HJOU
+N/D;N/D;IJRNBTRAVS;Nombre de jours travaillés par semaine;HJOU
+N/D;N/D;IJQPRESEFF;Base calcul des pauses pour h effectives;HJOU
+N/D;N/D;IJRNBCOFRA;Nbre congé payé dans période de fract.;HJOU
+N/D;N/D;IJQHS1COMP;Hrs complémentaires majorées payées Tx 1;HJOU
+N/D;N/D;IJRMAINTSA;Maintien congé payé samedi;HJOU
+N/D;N/D;IJRCPJEUDI;Calcul intermediaire congé payé jeudi;HJOU
+N/D;N/D;IJRSAMEAPR;Calcul interm nbr. samedi a prendre.;HJOU
+N/D;N/D;IJRNBJRARR;Nombre de jours d'arrêt;HJOU
+N/D;N/D;IJRVISITER;Flag Visite médicale de reprise;HJOU
+N/D;N/D;IJRNJTRMCP;Nbr jours trav. mens. pour acquis CP;HJOU
+N/D;N/D;IJRTHEOCYC;Theorie du cycle;HJOU
+N/D;N/D;IJRNBRSEMN;Nombre de semaines de nuit;HJOU
+N/D;N/D;IJRNBRNUIT;Nombre de nuits par semaine;HJOU
+N/D;N/D;IJRNBHDELE;Nbre h. délég. pour jours trav. annuels;HJOU
+N/D;N/D;IJQHANAIMP;Temps analytique imputé;HJOU
+N/D;N/D;IJQHANAVEN;Temps analytique à ventiler;HJOU
+N/D;N/D;IJQNUIPEN;Heures de nuit pour pénibilité;HJOU
+N/D;N/D;IJRJRCONG;Congé sur la journée;HJOU
+N/D;N/D;IJRCPCOH;Congés pris hebdo;HJOU
+N/D;N/D;IJIVMOTFOR;Motif de forfait temps;HJOU
+N/D;N/D;IJRINDANO;Indicateur pour déclenchement ano 134;HJOU
+N/D;N/D;IJRREP35H;Nombres d'heures repos hebdo;HJOU
+N/D;N/D;IJQMODL;Modèle activité à appliquer;HJOU
+N/D;N/D;IJRRCPM1;Report congé maladie -1 an;HJOU
+N/D;N/D;IJRRCPP1;Report congé maladie +1 an;HJOU
+N/D;N/D;IJRMABATCP;Maintien abattement CP;HJOU
+N/D;N/D;IJQJTEAFJ;NbJ travail effectif journalier FJ;HJOU
+N/D;N/D;IJQMOTCP;Stockage code motif congé sur la journée;HJOU
+N/D;N/D;IJRABSFIN;Absences premier jour période;HJOU
+N/D;N/D;IJRDCSUP;Droit congé supplémentaire;HJOU
+N/D;N/D;IJRCCSUP;Pris congé supplémentaire;HJOU
+N/D;N/D;IJRSCSUP;Solde congé supplémentaire;HJOU
+N/D;N/D;IJQFABSI;Flag ABSI demi-journée;HJOU
+N/D;N/D;IJRHEHSV;Chevauchement HS veille;HJOU
+N/D;N/D;IJRHEHPV;Chevauchement Heure base payée veille;HJOU
+N/D;N/D;IJQNBNUIT;Nombres de nuit pour la pénibilité;HJOU
+N/D;N/D;IJRCONDFRA;Condition jrs consécutifs fractionnement;HJOU
+N/D;N/D;IJQCPCONTI;Continuité de pose pour décompte CP FRAC;HJOU
+N/D;N/D;IJRF3PRBHS;Flag prés. b. h.s. sur x jours (N3);HJOU
+N/D;N/D;INMOD;Suivi analytique;HJOU
+N/D;N/D;IJRF2PRBHS;Flag prés. b. h.s. sur x jours (N2);HJOU
+N/D;N/D;IJRF3PBHSL;Flag prés. b.h.s. du lendemain (N3);HJOU
+N/D;N/D;INRECOND;Indicateur de reconduite CDCG;HJOU
+N/D;N/D;IJRF2PBHSL;Flag prés. b.h.s. du lendemain (N2);HJOU
+N/D;N/D;IJIEXTRACT;Indicateur extraction population;HJOU
+N/D;N/D;IJIACTI;Employé géré en activité;HJOU
+N/D;N/D;DATTRV;Date du dernier jour travaillé;HMAT
+N/D;N/D;DATREP;Date de reprise du travail;HMAT
+N/D;N/D;DATCST;Date de constatation;HMAT
+N/D;N/D;MOTIFREP;Motif de reprise;HMAT
+N/D;N/D;HORCODE;Code horaire;HORC
+N/D;N/D;LIBELLE;Libellé;HORC
+N/D;N/D;LIBCOURT;Libellé court;HORC
+N/D;N/D;REDUIT;Code réduit;HORC
+N/D;N/D;PAIRUB;Rubrique de paie;HORC
+N/D;N/D;TOTCYCLE;Durée du cycle;HORC
+N/D;N/D;MOYCYCLE;Moyenne du cycle;HORC
+N/D;N/D;HREPENIB;Durée d'exposition;HPEN
+N/D;N/D;NBRPENIB;Nombre d'exposition;HPEN
+N/D;N/D;CODELIEU;Lieu du poste;LIEU
+N/D;N/D;HORSECT;Code section;LIEU
+N/D;N/D;CODEFAM;Code famille;LIEU
+N/D;N/D;LIBELLE;Libellé;LIEU
+N/D;N/D;DESIGNA;Désignation;LIEU
+N/D;N/D;MODMIN;Gestion horaires minutes;LIEU
+N/D;N/D;MOTIF;Code motif;MOTI
+N/D;N/D;REDUIT;Code réduit;MOTI
+N/D;N/D;MOTYPE;Type de motif;MOTI
+N/D;N/D;FAMILLE;Famille de motif;MOTI
+N/D;N/D;PAIRUB;Rubrique de paie;MOTI
+N/D;N/D;PRIORITE;Code priorité;MOTI
+N/D;N/D;ARCHIV;Indicateur d'archivage;MOTI
+N/D;N/D;VALDFT;Valeur par défaut;MOTI
+N/D;N/D;VALMIN;Valeur minimum autorisée;MOTI
+N/D;N/D;VALMAX;Valeur maximum autorisée;MOTI
+N/D;N/D;LIBELLE;Libellé;MOTI
+N/D;N/D;LIBCOURT;Libellé court;MOTI
+N/D;N/D;VALID;Validite du motif;MOTI
+N/D;N/D;FILTRE;Filtre d'autorisation;MOTI
+N/D;N/D;TVALORIS;Valorisations autorisées;MOTI
+N/D;N/D;PLANIF;Affectation possible;MOTI
+N/D;N/D;ANALYT;Suivi en analytique;MOTI
+N/D;N/D;TYPMAT;Type d'arrêt;MOTI
+N/D;N/D;DUREEARRET;Durée minimum de l'arrêt de travail;MOTI
+N/D;N/D;VISITEREP;Visite médicale de reprise;MOTI
+N/D;N/D;CLICHE;Duplicata ou non;MOTI
+N/D;N/D;PARTPLAG;Participation à la plage;MOTI
+N/D;N/D;PARTVAC;Participation à la vacation;MOTI
+N/D;N/D;SYNOPTIC;Gestion des absences pour synoptique;MOTI
+N/D;N/D;IMIGRCHSMA;Participe au RC;MOTI
+N/D;N/D;IMIACTI;Alimente l'activité;MOTI
+N/D;N/D;IMIALIGA;Alimenté par l'activité;MOTI
+N/D;N/D;MATRICE;Matrice de pénibilité;MPEN
+N/D;N/D;FACTEUR;Facteur de pénibilité;MPEN
+N/D;N/D;TYPEXPO;Type d'exposition;MPEN
+N/D;N/D;TYPERESS;Type de ressource;MPEN
+N/D;N/D;UNITPENIB;Unité de pénibilité;MPEN
+N/D;N/D;SIMUPENIB;Simulation de pénibilité;MPEN
+N/D;N/D;DUREEPENIB;Durée de pénibilité;MPEN
+N/D;N/D;COEFFPENIB;Coefficient de pénibilité;MPEN
+N/D;N/D;IDIDDEBCCN;Début nouvelle CCN métallurgie;PARD
+N/D;N/D;IDISANCMA1;Seuil ancienneté 1 maladie;PARD
+N/D;N/D;IDISANCMA2;Seuil ancienneté 2 maladie;PARD
+N/D;N/D;IDISANCMA3;Seuil ancienneté 3 maladie;PARD
+N/D;N/D;IDIMABSM1;Maxi absence maladie seuil 1;PARD
+N/D;N/D;IDIMABSM2;Maxi absence maladie seuil 2;PARD
+N/D;N/D;IDIMABSM3;Maxi absence maladie seuil 3;PARD
+N/D;N/D;IDIAGECSUP;Age d'acquisition congé supplémentaire;PARD
+N/D;N/D;IDIDCSUP;Droit congé supplémentaire;PARD
+N/D;N/D;IDIVMCSUP;Motif congé supplémentaire;PARD
+N/D;N/D;OCCU;Code occu;PERS
+N/D;N/D;LIBELLE;Libellé;PERS
+N/D;N/D;LIBCOURT;Libellé court;PERS
+N/D;N/D;MATRI;Code matricule;PERS
+N/D;N/D;NOMPRE;Nom et prénom de l'employé;PERS
+N/D;N/D;NOM;Nom de l'employé;PERS
+N/D;N/D;PRENOM;Prénom de l'employé;PERS
+N/D;N/D;SECTION;Section d'imputation;PERS
+N/D;N/D;VIRTUEL;Provisoire;PERS
+N/D;N/D;INITIALE;Initiales de l'employé;PERS
+N/D;N/D;MATRIREF;Code matricule ref;PERS
+N/D;N/D;INTERIM;Interimaire;PERS
+N/D;N/D;MATRI;Code matricule;POIN
+N/D;N/D;DATE;Date;POIN
+N/D;N/D;HEURE;Heure du pointage;POIN
+N/D;N/D;LECTEUR;Code lecteur;POIN
+N/D;N/D;TYPEVE;Type d'événement;POIN
+N/D;N/D;IMPUT;Code imputation;POIN
+N/D;N/D;DATTRAI;Date de traitement;POIN
+N/D;N/D;HRETRAI;Heure de traitement;POIN
+N/D;N/D;DUREE;Durée de présence;POIN
+N/D;N/D;SENS;Sens du pointage;POIN
+N/D;N/D;MODLEC;Mode de lecture;POIN
+N/D;N/D;DATMOD;Date de dernière modification;POIN
+N/D;N/D;UTILMOD;Auteur de la modification;POIN
+N/D;N/D;FCTCORR;Fonction de correction;POIN
+N/D;N/D;CODELIEU;Lieu du poste;POST
+N/D;N/D;CODEQUAL;Qualification du poste;POST
+N/D;N/D;PRIORITEP;Priorité Poste;POST
+N/D;N/D;RENDEMENT;Rendement du poste;POST
+N/D;N/D;AFFMINI;Durée d'affectation minimum;POST
+N/D;N/D;AFFMAXI;Durée d'affectation maximum;POST
+N/D;N/D;PRISPOST;Temps de prise de poste;POST
+N/D;N/D;FINPOST;Temps de fin de poste;POST
+N/D;N/D;PENIBILITE;Pénibilité du poste;POST
+N/D;N/D;FLGVIRTU;Secteur virtuel;POST
+N/D;N/D;CHMAXI;Charge maxi du poste;POST
+N/D;N/D;CHMINI;Charge mini du poste;POST
+N/D;N/D;EXPRBES;Mode d'expression du besoin;POST
+N/D;N/D;ALIAS;Alias du poste;POST
+N/D;N/D;DATDEBUT;Date de début;POST
+N/D;N/D;DATFIN;Date de fin;POST
+N/D;N/D;UTPS;Unité de temps;POST
+N/D;N/D;HDEBUT;Heure de début;POST
+N/D;N/D;HFIN;Heure de fin;POST
+N/D;N/D;TFINPOST;Type de fin de poste;POST
+N/D;N/D;TPRISPOST;Type de début de poste;POST
+N/D;N/D;SUREFF;Sureffectif;POST
+N/D;N/D;CREUX;Privilégier les creux;POST
+N/D;N/D;HDPLDER;Heure début plage débordement;POST
+N/D;N/D;HFPLDER;Heure fin plage débordement;POST
+N/D;N/D;CALPL;Calendrier de planification;POST
+N/D;N/D;MODMIN;Gestion horaires minutes;POST
+N/D;N/D;SUREFFR;Pourcentage sureffectif;POST
+N/D;N/D;SOUSEFFR;Pourcentage sous-effectif;POST
+N/D;N/D;ABREVP;Abrev poste;POST
+N/D;N/D;LIBCOURT;Libellé court;POST
+N/D;N/D;LIBELLE;Libellé;POST
+N/D;N/D;MATRI;Code matricule;PRES
+N/D;N/D;DATE_JOUR;Date de référence;PRES
+N/D;N/D;MODE_TRV;Mode de travail J/S/M;PRES
+N/D;N/D;CLE_POP;Population;PRES
+N/D;N/D;TPS_PRES;Compteur de présence;PRES
+N/D;N/D;TPS_IMPUTE;Compteur de temps déclaré;PRES
+N/D;N/D;ECART;Ecart;PRES
+N/D;N/D;UTILCRE;Créateur;PRES
+N/D;N/D;DATCRE;Date de création;PRES
+N/D;N/D;UTILMOD;Auteur de la modification;PRES
+N/D;N/D;DATMOD;Date de dernière modification;PRES
+N/D;N/D;UTL_VAL1;Utilisateur ayant validé en niveau 1;PRES
+N/D;N/D;DATE_VAL1;Date de la validation niveau 1;PRES
+N/D;N/D;UTL_VAL2;Utilisateur ayant validé en niveau 2;PRES
+N/D;N/D;DATE_VAL2;Date de la validation niveau 2;PRES
+N/D;N/D;UTL_VAL3;Utilisateur ayant validé en niveau 3;PRES
+N/D;N/D;DATE_VAL3;Date de la validation niveau 3;PRES
+N/D;N/D;VALID;Validite du motif;PRES
+N/D;N/D;CLE_POPAFF;Population d'affectation;PRES
+N/D;N/D;PROFIL;Code profil horaire;PRES
+N/D;N/D;EVTDEF;Evénement par défaut;PRES
+N/D;N/D;ANO1;Anomalie 1;PRES
+N/D;N/D;PROFIL;Code profil horaire;PROF
+N/D;N/D;LIBELLE;Libellé;PROF
+N/D;N/D;LIBCOURT;Libellé court;PROF
+N/D;N/D;REDUIT;Code réduit;PROF
+N/D;N/D;PRIORITE;Code priorité;PROF
+N/D;N/D;COUPMIN;Durée minimum de la coupure;PROF
+N/D;N/D;COUPMAX;Durée maximum de la coupure;PROF
+N/D;N/D;HRMIDI;Heure de mi-journée;PROF
+N/D;N/D;PRETHEO;Présence théorique;PROF
+N/D;N/D;PREMINI;Présence minimum;PROF
+N/D;N/D;PREMAXI;Présence maximum;PROF
+N/D;N/D;PTTHEO1;Pointage théorique 1;PROF
+N/D;N/D;PTTHEO2;Pointage théorique 2;PROF
+N/D;N/D;PTTHEO3;Pointage théorique 3;PROF
+N/D;N/D;PTTHEO4;Pointage théorique 4;PROF
+N/D;N/D;SORTAUT1;Sortie automatique 1;PROF
+N/D;N/D;SORTAUT2;Sortie automatique 2;PROF
+N/D;N/D;ABSENJ;Durée de l'absence jour;PROF
+N/D;N/D;ABSENM;Durée de l'absence matin;PROF
+N/D;N/D;ABSENS;Durée de l'absence soir;PROF
+N/D;N/D;DEBNUIT;Heure de début de nuit;PROF
+N/D;N/D;FINNUIT;Heure de fin de nuit;PROF
+N/D;N/D;ECRCRE;Ecrétage du crédit;PROF
+N/D;N/D;ECRJOU;Ecrétage de la présence;PROF
+N/D;N/D;PLAGEDYN;Plages dynamiques;PROF
+N/D;N/D;HORTYPE;Type de l'horaire;PROF
+N/D;N/D;SYNCHRO;Profil synchronisé;PROF
+N/D;N/D;IPIVARTTEM;Valeur acquis. RTT initiative employeur;PROF
+N/D;N/D;IPIGHRSNUI;Gestion des heures de nuit;PROF
+N/D;N/D;IPIGFORFAI;Gestion présence non badgée;PROF
+N/D;N/D;POSTE;Code du poste;PSTE
+N/D;N/D;DATDEB;Date de début;PSTE
+N/D;N/D;DATFIN;Date de fin;PSTE
+N/D;N/D;BESOIN;Code besoin;PSTE
+N/D;N/D;ACTIVITE;Code activité;PSTE
+N/D;N/D;CATALOGUE;Appartenance au catalogue;PSTE
+N/D;N/D;CODEQUAL;Qualification du poste;QUAL
+N/D;N/D;MATRI;Code matricule;QUAL
+N/D;N/D;DATDEB;Date de début;QUAL
+N/D;N/D;DATFIN;Date de fin;QUAL
+N/D;N/D;RENDEMENT;Rendement du poste;QUAL
+N/D;N/D;NIVEAU;Niveau de compétence;QUAL
+N/D;N/D;JOURAPPLIC;Jours d'application;QUAL
+N/D;N/D;MAXAFFECT;Durée maximum d'affectation au poste;QUAL
+N/D;N/D;CODELIEU;Lieu du poste;QUAL
+N/D;N/D;CODETHOR;Type horaire;QUAR
+N/D;N/D;HDEBUT;Heure de début;QUAR
+N/D;N/D;HFIN;Heure de fin;QUAR
+N/D;N/D;LIBELLE;Libellé;QUAR
+N/D;N/D;PROFIL;Code profil horaire;QUAR
+N/D;N/D;OCCU;Code occu;RESS
+N/D;N/D;LIBELLE;Libellé;RESS
+N/D;N/D;LIBCOURT;Libellé court;RESS
+N/D;N/D;DATDEB;Date de début;RESS
+N/D;N/D;DATFIN;Date de fin;RESS
+N/D;N/D;ABREV;Abrev occu;RESS
+N/D;N/D;HORSECT;Code section;SECH
+N/D;N/D;HORCODE;Code horaire;SECH
+N/D;N/D;RANG;Rang dans le code horaire;SECH
+N/D;N/D;PROFIL;Code profil horaire;SECH
+N/D;N/D;DATTRAI;Date de traitement;SECH
+N/D;N/D;UTIL;Utilisateur par défaut;SECH
+N/D;N/D;SITE;Site par défaut;SECH
+N/D;N/D;TYPEPLAN;Type de planification;SECH
+N/D;N/D;UNITTRV;Unité de travail;SECH
+N/D;N/D;IJIVMINBAD;Valeur minimum de badgeages;SECH
+N/D;N/D;IJIVCONTRA;Contrat hebdomadaire;SECH
+N/D;N/D;ISISANC1;Seuil ancienneté 1 "RÉGIME 1";SECH
+N/D;N/D;ISISANC2;Seuil ancienneté 2 "RÉGIME 1";SECH
+N/D;N/D;ISISANC3;Seuil ancienneté 3 "RÉGIME 1";SECH
+N/D;N/D;ISISANC4;Seuil ancienneté 4 "RÉGIME 1";SECH
+N/D;N/D;ISISANC5;Seuil ancienneté 5 "RÉGIME 1";SECH
+N/D;N/D;ISISANC6;Seuil ancienneté 6 "RÉGIME 1";SECH
+N/D;N/D;ISIDCANC1;Droit congés ancienneté 1 "RÉGIME 1";SECH
+N/D;N/D;ISIDCANC2;Droit congés ancienneté 2 "RÉGIME 1";SECH
+N/D;N/D;ISIDCANC3;Droit congés ancienneté 3 "RÉGIME 1";SECH
+N/D;N/D;ISIDCANC4;Droit congés ancienneté 4 "RÉGIME 1";SECH
+N/D;N/D;ISIDCANC5;Droit congés ancienneté 5 "RÉGIME 1";SECH
+N/D;N/D;ISIDCANC6;Droit congés ancienneté 6 "RÉGIME 1";SECH
+N/D;N/D;ISISANNC1;Seuil ancienneté 1 "RÉGIME 2";SECH
+N/D;N/D;ISISANNC2;Seuil ancienneté 2 "RÉGIME 2";SECH
+N/D;N/D;ISISANNC3;Seuil ancienneté 3 "RÉGIME 2";SECH
+N/D;N/D;ISISANNC4;Seuil ancienneté 4 "RÉGIME 2";SECH
+N/D;N/D;ISISANNC5;Seuil ancienneté 5 "RÉGIME 2";SECH
+N/D;N/D;ISISANNC6;Seuil ancienneté 6 "RÉGIME 2";SECH
+N/D;N/D;ISIDCANNC1;Droit congés ancienneté 1 "RÉGIME 2";SECH
+N/D;N/D;ISIDCANNC2;Droit congés ancienneté 2 "RÉGIME 2";SECH
+N/D;N/D;ISIDCANNC3;Droit congés ancienneté 3 "RÉGIME 2";SECH
+N/D;N/D;ISIDCANNC4;Droit congés ancienneté 4 "RÉGIME 2";SECH
+N/D;N/D;ISIDCANNC5;Droit congés ancienneté 5 "RÉGIME 2";SECH
+N/D;N/D;ISIDCANNC6;Droit congés ancienneté 6 "RÉGIME 2";SECH
+N/D;N/D;ISIAGECSUP;Age d'acquisition congé supplémentaire;SECH
+N/D;N/D;ISIDCSUP;Droit congé supplémentaire;SECH
+N/D;N/D;INMOD;Suivi analytique;SECH
+N/D;N/D;ISIACTI;Section gérée en activité;SECH
+N/D;N/D;OCCU;Code occu;STRU
+N/D;N/D;LIBELLE;Libellé;STRU
+N/D;N/D;LIBCOURT;Libellé court;STRU
+N/D;N/D;DATDEB;Date de début;STRU
+N/D;N/D;DATFIN;Date de fin;STRU
+N/D;N/D;ABREV;Abrev occu;STRU
+N/D;N/D;PERVALID;Periode de validité;STRU
+N/D;N/D;PERALERTE;Periode d'alerte;STRU
+N/D;N/D;DATE_COUT;Date d'effet;TAUX
+N/D;N/D;TAUX1;Taux 1;TAUX
+N/D;N/D;TAUX2;Taux 2;TAUX
+N/D;N/D;TAUX3;Taux 3;TAUX
+N/D;N/D;NXPOIN;Nombre de pointages;TEMP
+N/D;N/D;NXACT;Nombre d'activités;TEMP
+N/D;N/D;NXPLAG;Plages attendues;TEMP
+N/D;N/D;NXPOST;Nombre de postes par jour;TEMP
+N/D;N/D;NXWACT;Nombre de demandes;TEMP
+N/D;N/D;NXEVEN;Nombre d'événements;TEMP
+N/D;N/D;NXCRPL;Nombre de créneaux;TEMP
+N/D;N/D;NXENFT;Nombre d'enfants;TEMP
+N/D;N/D;NXPENIB;Nombre de pénibilités;TEMP
+N/D;N/D;HXPOIN;Présence pointée;TEMP
+N/D;N/D;HXNUIT;Présence pointée de nuit;TEMP
+N/D;N/D;HIPRE;Présence dans l'intervalle d'ANALYSE;TEMP
+N/D;N/D;HIABS;Absence dans l'intervalle d'ANALYSE;TEMP
+N/D;N/D;HISENS;Sens du premier pointage;TEMP
+N/D;N/D;HIPOIN;Nombre de pointages dans la plage;TEMP
+N/D;N/D;HIPTPR;Premier pointage de la plage;TEMP
+N/D;N/D;HIPTDE;Dernier pointage de la plage;TEMP
+N/D;N/D;HILECP;Lecteur du premier pointage;TEMP
+N/D;N/D;HILECD;Lecteur du dernier pointage;TEMP
+N/D;N/D;HIEVEP;Code événement du premier pointage;TEMP
+N/D;N/D;HIEVED;Code événement du dernier pointage;TEMP
+N/D;N/D;HIIMPP;Imputation du premier pointage;TEMP
+N/D;N/D;HIIMPD;Imputation du dernier pointage;TEMP
+N/D;N/D;HIJOUR;Durée de la journée;TEMP
+N/D;N/D;TYPPLA;Type de plage;TEMP
+N/D;N/D;VALORIS;Code valorisation;TEMP
+N/D;N/D;HREDEB;Heure de début de plage;TEMP
+N/D;N/D;HREFIN;Heure de fin de plage;TEMP
+N/D;N/D;CODTRAI;Code traitement de la plage;TEMP
+N/D;N/D;VALTRT1;Valeur 1 associée au code traitement;TEMP
+N/D;N/D;VALTRT2;Valeur 2 associée au code traitement;TEMP
+N/D;N/D;VALTRT3;Valeur 3 associée au code traitement;TEMP
+N/D;N/D;DATJOU;Date du jour;TEMP
+N/D;N/D;DATPRE;Date précédente;TEMP
+N/D;N/D;DATSUI;Date suivante;TEMP
+N/D;N/D;DATCTRSUI;Date période d'emploi suivante;TEMP
+N/D;N/D;DATCTRPRE;Date période d'emploi précédente;TEMP
+N/D;N/D;DATADMSUI;Date contrat admin suivante;TEMP
+N/D;N/D;DATADMPRE;Date contrat admin précédente;TEMP
+N/D;N/D;DATDANN;Date début annualisation;TEMP
+N/D;N/D;DATFANN;Date fin annualisation;TEMP
+N/D;N/D;CNRETOUR;Code retour contraintes;TEMP
+N/D;N/D;CNNBERR;Nombre d'err contraintes;TEMP
+N/D;N/D;CNMESS;Numero message contraintes;TEMP
+N/D;N/D;CNORIG;Code origine de la demande;TEMP
+N/D;N/D;CNFONCT;Code fonction de la demande;TEMP
+N/D;N/D;CNMOTIF;Motif de la demande;TEMP
+N/D;N/D;CNAUTEUR;Auteur de la demande;TEMP
+N/D;N/D;CNDATDEB;Date de début de la demande;TEMP
+N/D;N/D;CNDATFIN;Date de fin de la demande;TEMP
+N/D;N/D;REGLESIMU;Règle de simulation;TEMP
+N/D;N/D;DXDEBPER;Date de début de période;TEMP
+N/D;N/D;HXDEBPER;Heure de début de période;TEMP
+N/D;N/D;DXFINPER;Date de fin de période;TEMP
+N/D;N/D;HXFINPER;Heure de fin de période;TEMP
+N/D;N/D;NXHEURE;Nombre d'heures;TEMP
+N/D;N/D;NXJOUR;Nombre de jours;TEMP
+N/D;N/D;NXSEMAIN;Nombre de semaines;TEMP
+N/D;N/D;NXMOIS;Nombre de mois;TEMP
+N/D;N/D;NXANNEE;Nombre d'années;TEMP
+N/D;N/D;CALEND;Code calendrier;TEMP
+N/D;N/D;CALENDPRE;Code calendrier sur J-1;TEMP
+N/D;N/D;CALENDSUI;Code calendrier sur J+1;TEMP
+N/D;N/D;MAXAFFECT;Durée maximum d'affectation au poste;TEMP
+N/D;N/D;RENDEMENT;Rendement du poste;TEMP
+N/D;N/D;NIVEAUC;Niveau de compétence (domaine TEMP);TEMP
+N/D;N/D;TXRECOUV;Taux de recouvrement du créneau;TEMP
+N/D;N/D;NXPER;Nombre de périodes d'emploi;TEMP
+N/D;N/D;NXCTA;Nombre de contrats administratifs;TEMP
+N/D;N/D;NXSITU;Nombre de situations;TEMP
+N/D;N/D;TEPGP;Valeur de la plus grande pause;TEMP
+N/D;N/D;TEP1;Première pause;TEMP
+N/D;N/D;TEP2;Deuxième pause;TEMP
+N/D;N/D;TEP3;Troisième pause;TEMP
+N/D;N/D;RETOUR;Retour mission;TEMP
+N/D;N/D;TERACTB;Retour activité badgée;TEMP
+N/D;N/D;ITQPRESJOU;PRESENCE JOUR;TEMP
+N/D;N/D;ITQTRCPCET;Contrôle transfert congé payé en CET;TEMP
+N/D;N/D;ITQTRCACET;Controle transfert CA en CET;TEMP
+N/D;N/D;ITQTRCFCET;Controle transfert CF en CET;TEMP
+N/D;N/D;ITQTRCPDON;Contrôle transfert congé payé en DONS;TEMP
+N/D;N/D;ITQNBJTRAV;Nbr délég. à déduire jours trav. annuels;TEMP
+N/D;N/D;ITQNUITMOT;Heures de nuit maintenues par motif;TEMP
+N/D;N/D;ITQTRCSCET;Controle transfert CSUP en CET;TEMP
+N/D;N/D;ITCHEVCD;Durée de chevauchement C/D;TEMP
+N/D;N/D;ITCHEVTTE;Durée de chevauchement TTE;TEMP
+N/D;N/D;ITCHEHS;Durée de chevauchement HS;TEMP
+N/D;N/D;ITCHEHP;Durée de chevauchement Heure base payée;TEMP
+N/D;N/D;TEMISS;Indicateur pour repas mission;TEMP
+N/D;N/D;TEANOM;Indicateur pour positionnement anomalie;TEMP
+N/D;N/D;TEDJACTB;Indicateur pour activité badgée;TEMP
+N/D;N/D;ITQJJF;Jour jour férié;TEMP
+N/D;N/D;ITQJVJF;Jour veille jour férié;TEMP
+N/D;N/D;ITQJLJF;Jour lendemain jour férié;TEMP
+N/D;N/D;MATRI;Code matricule;WABS
+N/D;N/D;DATE;Date;WABS
+N/D;N/D;MOTIF;Code motif;WABS
+N/D;N/D;VALORIS;Code valorisation;WABS
+N/D;N/D;ANNUL;Demande annulation;WABS
+N/D;N/D;TYPEFOR;Type de formulaire;WABS
+N/D;N/D;FONCTION;Fonction Self;WABS
+N/D;N/D;MOTIDUR;Durée de l'activité;WABS
+N/D;N/D;HRADEB;Début de plage d'activité;WABS
+N/D;N/D;HRAFIN;Fin de plage d'activité;WABS
+N/D;N/D;DATDEM;Date de la demande;WABS
+N/D;N/D;UTILCRE;Créateur;WABS
+N/D;N/D;UTILMOD;Auteur de la modification;WABS
