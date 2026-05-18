@@ -1,0 +1,265 @@
+trigger:
+  branches:
+    include:
+    - main
+  paths:
+    include:
+    - terraform/*
+    - .azure-pipelines/terraform-production.yml
+    - scripts/*
+
+variables:
+  TERRAFORM_VERSION: '1.6.0'
+  AZURE_RESOURCE_MANAGER_CONNECTION: 'terraform-prod-sp'
+  ENVIRONMENT: 'production'
+  TF_VAR_project_name: 'newfolder'
+  TF_VAR_location: 'East US'
+
+stages:
+
+- stage: Validate
+  displayName: 'Validate & Format Check'
+  jobs:
+  - job: ValidateJob
+    displayName: 'Terraform Validation'
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - task: UseTerraformVersion@0
+      inputs:
+        terraformVersion: $(TERRAFORM_VERSION)
+
+    - task: TerraformTaskV4@4
+      displayName: 'Terraform Init (Validation)'
+      inputs:
+        provider: 'azurerm'
+        command: 'init'
+        workingDirectory: '$(System.DefaultWorkingDirectory)/terraform'
+        backendServiceArm: $(AZURE_RESOURCE_MANAGER_CONNECTION)
+        backendAzureRmResourceGroupName: 'rg-terraform-state'
+        backendAzureRmStorageAccountName: 'tfstateproduction'
+        backendAzureRmContainerName: 'tfstate'
+        backendAzureRmKey: 'prod.terraform.tfstate'
+
+    - task: TerraformTaskV4@4
+      displayName: 'Terraform Format Check'
+      inputs:
+        provider: 'azurerm'
+        command: 'custom'
+        customCommand: 'fmt'
+        workingDirectory: '$(System.DefaultWorkingDirectory)/terraform'
+        commandOptions: '-check -recursive'
+        allowTelemetryCollection: false
+
+    - task: TerraformTaskV4@4
+      displayName: 'Terraform Validate'
+      inputs:
+        provider: 'azurerm'
+        command: 'validate'
+        workingDirectory: '$(System.DefaultWorkingDirectory)/terraform'
+        allowTelemetryCollection: false
+
+    - task: PublishBuildArtifacts@1
+      displayName: 'Publish Validation Report'
+      condition: always()
+      inputs:
+        pathToPublish: '$(System.DefaultWorkingDirectory)/terraform'
+        artifactName: 'terraform-config'
+        publishLocation: 'Container'
+
+
+- stage: Plan
+  displayName: 'Plan Infrastructure Changes'
+  dependsOn: Validate
+  condition: succeeded()
+  jobs:
+  - job: PlanJob
+    displayName: 'Generate Terraform Plan'
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - task: UseTerraformVersion@0
+      inputs:
+        terraformVersion: $(TERRAFORM_VERSION)
+
+    - task: DownloadBuildArtifacts@1
+      inputs:
+        buildType: 'current'
+        downloadType: 'specific'
+        artifactName: 'terraform-config'
+        downloadPath: '$(System.DefaultWorkingDirectory)'
+
+    - task: TerraformTaskV4@4
+      displayName: 'Terraform Init'
+      inputs:
+        provider: 'azurerm'
+        command: 'init'
+        workingDirectory: '$(System.DefaultWorkingDirectory)/terraform'
+        backendServiceArm: $(AZURE_RESOURCE_MANAGER_CONNECTION)
+        backendAzureRmResourceGroupName: 'rg-terraform-state'
+        backendAzureRmStorageAccountName: 'tfstateproduction'
+        backendAzureRmContainerName: 'tfstate'
+        backendAzureRmKey: 'prod.terraform.tfstate'
+
+    - task: TerraformTaskV4@4
+      displayName: 'Terraform Plan'
+      inputs:
+        provider: 'azurerm'
+        command: 'plan'
+        workingDirectory: '$(System.DefaultWorkingDirectory)/terraform'
+        commandOptions: '-var-file="terraform.prod.tfvars" -out=$(Build.ArtifactStagingDirectory)/tfplan'
+        environmentServiceNameAzureRM: $(AZURE_RESOURCE_MANAGER_CONNECTION)
+        allowTelemetryCollection: false
+
+    - task: PublishBuildArtifacts@1
+      displayName: 'Publish Terraform Plan'
+      condition: succeeded()
+      inputs:
+        pathToPublish: '$(Build.ArtifactStagingDirectory)'
+        artifactName: 'terraform-plan'
+        publishLocation: 'Container'
+
+    - task: PublishBuildArtifacts@1
+      displayName: 'Publish Plan Summary'
+      condition: succeeded()
+      inputs:
+        pathToPublish: '$(System.DefaultWorkingDirectory)/terraform'
+        artifactName: 'terraform-summary'
+        publishLocation: 'Container'
+
+
+- stage: Review
+  displayName: 'Manual Review & Approval'
+  dependsOn: Plan
+  condition: succeeded()
+  jobs:
+  - job: ReviewJob
+    displayName: 'Wait for Approval'
+    pool: server
+    timeoutInMinutes: 1440
+    steps:
+    - task: ManualValidation@0
+      inputs:
+        notifyUsers: 'devops-team@yourdomain.com'
+        instructions: 'Review the Terraform plan and approve deployment to production. Changes will be applied immediately upon approval.'
+        onTimeout: 'reject'
+
+
+- stage: Apply
+  displayName: 'Apply Infrastructure Changes'
+  dependsOn: Review
+  condition: succeeded()
+  jobs:
+  - deployment: ApplyJob
+    displayName: 'Apply Terraform Plan'
+    environment: 'Production'
+    pool:
+      vmImage: 'ubuntu-latest'
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - task: UseTerraformVersion@0
+            inputs:
+              terraformVersion: $(TERRAFORM_VERSION)
+
+          - task: DownloadBuildArtifacts@1
+            inputs:
+              buildType: 'current'
+              downloadType: 'specific'
+              artifactName: 'terraform-plan'
+              downloadPath: '$(Pipeline.Workspace)'
+
+          - task: TerraformTaskV4@4
+            displayName: 'Terraform Init for Apply'
+            inputs:
+              provider: 'azurerm'
+              command: 'init'
+              workingDirectory: '$(Pipeline.Workspace)/terraform'
+              backendServiceArm: $(AZURE_RESOURCE_MANAGER_CONNECTION)
+              backendAzureRmResourceGroupName: 'rg-terraform-state'
+              backendAzureRmStorageAccountName: 'tfstateproduction'
+              backendAzureRmContainerName: 'tfstate'
+              backendAzureRmKey: 'prod.terraform.tfstate'
+
+          - task: TerraformTaskV4@4
+            displayName: 'Terraform Apply'
+            inputs:
+              provider: 'azurerm'
+              command: 'apply'
+              workingDirectory: '$(Pipeline.Workspace)/terraform'
+              commandOptions: '$(Pipeline.Workspace)/tfplan'
+              environmentServiceNameAzureRM: $(AZURE_RESOURCE_MANAGER_CONNECTION)
+              allowTelemetryCollection: false
+
+          - task: PublishBuildArtifacts@1
+            displayName: 'Publish Deployment Logs'
+            condition: always()
+            inputs:
+              pathToPublish: '$(Pipeline.Workspace)/terraform'
+              artifactName: 'deployment-logs'
+              publishLocation: 'Container'
+
+
+- stage: PostDeploy
+  displayName: 'Post-Deployment Validation'
+  dependsOn: Apply
+  condition: succeeded()
+  jobs:
+  - job: ValidationJob
+    displayName: 'Run Deployment Validation Tests'
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - task: UsePythonVersion@0
+      inputs:
+        versionSpec: '3.11'
+      displayName: 'Use Python 3.11'
+
+    - task: DownloadBuildArtifacts@1
+      inputs:
+        buildType: 'current'
+        downloadType: 'specific'
+        artifactName: 'terraform-summary'
+        downloadPath: '$(System.DefaultWorkingDirectory)'
+
+    - script: |
+        python -m pip install --upgrade pip
+        pip install -r scripts/requirements.txt
+      displayName: 'Install Python Dependencies'
+      workingDirectory: '$(System.DefaultWorkingDirectory)'
+
+    - script: |
+        python scripts/validate_deployment.py \
+          --resource-group "rg-newfolder-prod" \
+          --location "East US" \
+          --subscription-id "$(AZURE_SUBSCRIPTION_ID)"
+      displayName: 'Validate Deployment'
+      env:
+        AZURE_SUBSCRIPTION_ID: $(azure.subscription.id)
+      condition: succeeded()
+
+    - task: PublishTestResults@2
+      displayName: 'Publish Test Results'
+      condition: always()
+      inputs:
+        testResultsFormat: 'JUnit'
+        testResultsFiles: '$(System.DefaultWorkingDirectory)/test-results.xml'
+        mergeTestResults: true
+        failTaskOnFailedTests: false
+
+    - task: SendEmail@1
+      displayName: 'Send Deployment Success Notification'
+      condition: succeeded()
+      inputs:
+        to: 'devops-team@yourdomain.com'
+        subject: 'Production Deployment Successful - $(System.TeamProject)'
+        body: 'Production infrastructure has been successfully deployed.\n\nBuild: $(Build.BuildNumber)\nCommit: $(Build.SourceVersion)\nBranch: $(Build.SourceBranch)'
+
+    - task: SendEmail@1
+      displayName: 'Send Deployment Failure Notification'
+      condition: failed()
+      inputs:
+        to: 'devops-team@yourdomain.com'
+        subject: 'Production Deployment Failed - $(System.TeamProject)'
+        body: 'Production infrastructure deployment has failed.\n\nBuild: $(Build.BuildNumber)\nCommit: $(Build.SourceVersion)\nPlease review the logs for details.'

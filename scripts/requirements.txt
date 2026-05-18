@@ -1,0 +1,7 @@
+# Azure SDK dependencies for deployment validation
+
+azure-identity>=1.14.0
+azure-mgmt-resource>=23.1.0
+azure-mgmt-network>=25.0.0
+azure-mgmt-web>=7.0.0
+azure-mgmt-monitor>=5.0.0
